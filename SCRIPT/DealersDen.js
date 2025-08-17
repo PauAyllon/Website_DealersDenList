@@ -255,7 +255,7 @@ function handleRectClick(event) {
       document.getElementById('RRSS_Button').style.opacity = "0";
       document.getElementById('RRSS_Button').style.pointerEvents = "none";
     } else {
-      document.getElementById('RRSS_Button').href = seller.Link;
+      //document.getElementById('RRSS_Button').href = seller.Link;
     }
 
     document.getElementById('Seller_Name').innerText = seller.Artist;

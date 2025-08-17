@@ -706,9 +706,9 @@ body{
     }
 
     .heart {
-        left: -23vw;
+        left: -170px;
         position: relative;
-        top: -20px;
+        top: 100px;
     }
 
     #ItemForm {
