@@ -712,9 +712,9 @@ body{
     #CloseDownload{top: 2px;}
 
     .heart {
-        left: -170px;
+        left: -135px;
         position: relative;
-        top: 100px;
+        top: 83px;
     }
 
     #ItemForm {
@@ -723,5 +723,14 @@ body{
 
     #TextInput {
         width: 280px;
+    }
+
+    #Nickname {
+        width: 105px;
+        height: 105px;
+    }
+
+    #Nickname p {
+        font-size: 40px;
     }
 }
