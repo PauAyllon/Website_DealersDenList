@@ -728,4 +728,9 @@ body{
     #Nickname p {
         font-size: 40px;
     }
+
+    .Remove_Button {
+        opacity: 1;
+        left: 136px;
+    }
 }
