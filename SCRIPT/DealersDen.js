@@ -446,8 +446,6 @@ function zoom(delta) {
 
 /* EVENTOS DE ZOOM
 =============================================================================== */
-const ImageContainer = document.getElementById('imagen');
-
 DD_Container.addEventListener('wheel', function (e) {
     e.preventDefault();
     const delta = e.deltaY < 0 ? zoomStep : -zoomStep;
@@ -460,6 +458,8 @@ zoomOutBtn.addEventListener('click', () => zoom(-zoomStep));
 
 /* EVENTOS - ARRASTRAR
 =============================================================================== */
+const ImageContainer = document.getElementById('imagen');
+
 ImageContainer.addEventListener('mousedown', function (e) {
     isDragging = true;
     startX = e.clientX - originX;
@@ -480,27 +480,17 @@ ImageContainer.addEventListener('mousemove', function (e) {
 ImageContainer.addEventListener('mouseup', () => isDragging = false);
 ImageContainer.addEventListener('mouseleave', () => isDragging = false);
 
-let moved = false;
-
 ImageContainer.addEventListener('touchstart', function (e) {
     if (e.touches.length > 0) {
-        startX = e.touches[0].clientX;
-        startY = e.touches[0].clientY;
-        moved = false;
         isDragging = true;
+        startX = e.touches[0].clientX - originX;
+        startY = e.touches[0].clientY - originY;
     }
-}, { passive: true });
+}, { passive: false });
 
 ImageContainer.addEventListener('touchmove', function (e) {
-    if (!isDragging || e.touches.length === 0) return;
-
-    const dx = e.touches[0].clientX - startX;
-    const dy = e.touches[0].clientY - startY;
-
-    // Solo prevenir el comportamiento si el usuario ha arrastrado más de 10px en cualquier dirección
-    if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
-        moved = true;
-        e.preventDefault(); // Esto bloqueará el scroll solo si se detecta un drag
+    if (isDragging && e.touches.length > 0) {
+        e.preventDefault(); // evita el scroll
         originX = e.touches[0].clientX - startX;
         originY = e.touches[0].clientY - startY;
         clampPosition();
@@ -510,15 +500,8 @@ ImageContainer.addEventListener('touchmove', function (e) {
     mostrarCoordenadas(e);
 }, { passive: false });
 
-ImageContainer.addEventListener('touchend', () => {
-    isDragging = false;
-    moved = false;
-});
-ImageContainer.addEventListener('touchcancel', () => {
-    isDragging = false;
-    moved = false;
-});
-
+ImageContainer.addEventListener('touchend', () => isDragging = false);
+ImageContainer.addEventListener('touchcancel', () => isDragging = false);
 
 /* FUNCION - MOSTRAR COORDENADAS
 =============================================================================== */
