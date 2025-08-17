@@ -711,11 +711,6 @@ body{
 
     #CloseDownload{top: 2px;}
 
-    .heart {
-        left: -135px;
-        position: relative;
-        top: 83px;
-    }
 
     #ItemForm {
         width: 80%;
