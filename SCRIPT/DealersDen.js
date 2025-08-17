@@ -251,12 +251,11 @@ function handleRectClick(event) {
       ` */
     }
 
-    if(seller.Link == ''){
-      document.getElementById('RRSS_Button').style.opacity = "0";
-      document.getElementById('RRSS_Button').style.pointerEvents = "none";
+    /* if(seller.Link == ''){
+      document.getElementById('RRSS_Button').style.display = "none";
     } else {
-      //document.getElementById('RRSS_Button').href = seller.Link;
-    }
+      document.getElementById('RRSS_Button').style.display = "none";
+    } */
 
     document.getElementById('Seller_Name').innerText = seller.Artist;
     document.getElementById('Seller_Stand').innerText = "Stall: " + seller.Stall;
