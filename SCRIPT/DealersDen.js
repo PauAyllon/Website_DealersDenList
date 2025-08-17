@@ -478,17 +478,27 @@ DD_Container.addEventListener('mousemove', function (e) {
 DD_Container.addEventListener('mouseup', () => isDragging = false);
 DD_Container.addEventListener('mouseleave', () => isDragging = false);
 
+let moved = false;
+
 DD_Container.addEventListener('touchstart', function (e) {
     if (e.touches.length > 0) {
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+        moved = false;
         isDragging = true;
-        startX = e.touches[0].clientX - originX;
-        startY = e.touches[0].clientY - originY;
     }
-}, { passive: false });
+}, { passive: true });
 
 DD_Container.addEventListener('touchmove', function (e) {
-    if (isDragging && e.touches.length > 0) {
-        e.preventDefault(); // evita el scroll
+    if (!isDragging || e.touches.length === 0) return;
+
+    const dx = e.touches[0].clientX - startX;
+    const dy = e.touches[0].clientY - startY;
+
+    // Solo prevenir el comportamiento si el usuario ha arrastrado más de 10px en cualquier dirección
+    if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
+        moved = true;
+        e.preventDefault(); // Esto bloqueará el scroll solo si se detecta un drag
         originX = e.touches[0].clientX - startX;
         originY = e.touches[0].clientY - startY;
         clampPosition();
@@ -498,8 +508,15 @@ DD_Container.addEventListener('touchmove', function (e) {
     mostrarCoordenadas(e);
 }, { passive: false });
 
-DD_Container.addEventListener('touchend', () => isDragging = false);
-DD_Container.addEventListener('touchcancel', () => isDragging = false);
+DD_Container.addEventListener('touchend', () => {
+    isDragging = false;
+    moved = false;
+});
+DD_Container.addEventListener('touchcancel', () => {
+    isDragging = false;
+    moved = false;
+});
+
 
 /* FUNCION - MOSTRAR COORDENADAS
 =============================================================================== */
