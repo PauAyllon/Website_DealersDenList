@@ -478,6 +478,28 @@ DD_Container.addEventListener('mousemove', function (e) {
 DD_Container.addEventListener('mouseup', () => isDragging = false);
 DD_Container.addEventListener('mouseleave', () => isDragging = false);
 
+DD_Container.addEventListener('touchstart', function (e) {
+    if (e.touches.length > 0) {
+        isDragging = true;
+        startX = e.touches[0].clientX - originX;
+        startY = e.touches[0].clientY - originY;
+    }
+}, { passive: false });
+
+DD_Container.addEventListener('touchmove', function (e) {
+    if (isDragging && e.touches.length > 0) {
+        e.preventDefault(); // evita el scroll
+        originX = e.touches[0].clientX - startX;
+        originY = e.touches[0].clientY - startY;
+        clampPosition();
+        updateTransform();
+    }
+
+    mostrarCoordenadas(e);
+}, { passive: false });
+
+DD_Container.addEventListener('touchend', () => isDragging = false);
+DD_Container.addEventListener('touchcancel', () => isDragging = false);
 
 /* FUNCION - MOSTRAR COORDENADAS
 =============================================================================== */

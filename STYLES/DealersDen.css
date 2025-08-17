@@ -412,6 +412,11 @@ body{
     box-shadow: -1px -2px 9px 5px #00000044;
 }
 
+#ItemForm {
+    display: inline-flex;
+    flex-direction: column;
+}
+
 .Artist_Info {
     padding-top: 20px;
     justify-content: start;
@@ -695,10 +700,22 @@ body{
         margin-top: 5%;
     }
 
-    .close{right: 32px;}
+    .close{
+        right: 22px;
+        top: 12px;
+    }
 
     .heart {
-        left: -40px;
+        left: -23vw;
         position: relative;
+        top: -20px;
+    }
+
+    #ItemForm {
+        width: 80%;
+    }
+
+    #TextInput {
+        width: 280px;
     }
 }
