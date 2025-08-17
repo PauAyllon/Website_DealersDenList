@@ -446,6 +446,8 @@ function zoom(delta) {
 
 /* EVENTOS DE ZOOM
 =============================================================================== */
+const ImageContainer = document.getElementById('imagen');
+
 DD_Container.addEventListener('wheel', function (e) {
     e.preventDefault();
     const delta = e.deltaY < 0 ? zoomStep : -zoomStep;
@@ -458,13 +460,13 @@ zoomOutBtn.addEventListener('click', () => zoom(-zoomStep));
 
 /* EVENTOS - ARRASTRAR
 =============================================================================== */
-DD_Container.addEventListener('mousedown', function (e) {
+ImageContainer.addEventListener('mousedown', function (e) {
     isDragging = true;
     startX = e.clientX - originX;
     startY = e.clientY - originY;
 });
 
-DD_Container.addEventListener('mousemove', function (e) {
+ImageContainer.addEventListener('mousemove', function (e) {
     if (isDragging) {
         originX = e.clientX - startX;
         originY = e.clientY - startY;
@@ -475,12 +477,12 @@ DD_Container.addEventListener('mousemove', function (e) {
     mostrarCoordenadas(e);
 });
 
-DD_Container.addEventListener('mouseup', () => isDragging = false);
-DD_Container.addEventListener('mouseleave', () => isDragging = false);
+ImageContainer.addEventListener('mouseup', () => isDragging = false);
+ImageContainer.addEventListener('mouseleave', () => isDragging = false);
 
 let moved = false;
 
-DD_Container.addEventListener('touchstart', function (e) {
+ImageContainer.addEventListener('touchstart', function (e) {
     if (e.touches.length > 0) {
         startX = e.touches[0].clientX;
         startY = e.touches[0].clientY;
@@ -489,7 +491,7 @@ DD_Container.addEventListener('touchstart', function (e) {
     }
 }, { passive: true });
 
-DD_Container.addEventListener('touchmove', function (e) {
+ImageContainer.addEventListener('touchmove', function (e) {
     if (!isDragging || e.touches.length === 0) return;
 
     const dx = e.touches[0].clientX - startX;
@@ -508,11 +510,11 @@ DD_Container.addEventListener('touchmove', function (e) {
     mostrarCoordenadas(e);
 }, { passive: false });
 
-DD_Container.addEventListener('touchend', () => {
+ImageContainer.addEventListener('touchend', () => {
     isDragging = false;
     moved = false;
 });
-DD_Container.addEventListener('touchcancel', () => {
+ImageContainer.addEventListener('touchcancel', () => {
     isDragging = false;
     moved = false;
 });
