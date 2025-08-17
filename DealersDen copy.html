@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>MFF Dealers Den</title>
+
+        <!-- <link rel="icon" href="multimedia/webicon.png"> -->
+        <link rel="stylesheet" href="STYLES/DealersDen.css">
+
+        <script src="SCRIPT/DealersDen.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        
+
+        <div class="LoaderContainer" id="LoaderContainer"><span class="loader"></span></div>
+
+        <div class="DD_Container" id="DD_Container">
+
+            <div class="control" style="left: 20px;">
+                <button id="Menu" onclick="handleDownloadItemContainer()"><img src="Images/Buttons/menu_3876020.png" style="width: 16px; padding-top: 5px;"></button>
+                <button id="Filter" onclick="FilterFavorite(this)" title="Favorite Filter"><img src="Images/Buttons/filter_4240701.png" style="width: 16px; padding-top: 5px;"></button>
+            </div>
+
+            <div class="control" style="right: 20px;">
+                <button id="zoomIn">+</button>
+                <button id="zoomOut">−</button>
+            </div>
+
+            <div class="coordenadas" id="coordenadas">X: 0, Y: 0</div>
+
+            <div id="overlay"></div>
+            <img src="Images/Vanncoufur_Map.png" alt="Imagen" class="imagen" id="imagen">
+        
+        </div>
+
+        <div class="DD_SellerContainer" id="CloseSellerContainer">
+            <div class="DD_SellerInfoContainer">
+                <div style="height: 30px;">
+                    
+                </div>
+                
+                <div class="Artist_Info">
+                    <img src="" id="Seller_Icon" id="Seller_Icon">
+                    <div style="display: inline-flex; flex-direction: column; align-items: start;">
+                        <p id="Seller_Name" class="Seller_Name" style="margin-top: 15px; margin-bottom: 0px;">Sample</p>
+                        <p id="Seller_Stand" class="Seller_Info" style="margin-top: 0px;"></p>
+                        <!-- <button class="RRSS_Button" id="RRSS_Button">Artist Site <div style="transition: .3s ease;"><i class="arrow right"></i></div></button> -->
+                         <a href="https://enlace.com" class="RRSS_Button" id="RRSS_Button" style="">
+                            Artist Site 
+                            <div style="transition: .3s ease; margin-left: 10px;">
+                                <i class="arrow right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div style="width: 95px; display: flex ; justify-content: end;">
+                        <div class="heart" id="heart" style="width: 34px; margin-top: 2px;" onclick="FavoriteSeller()"></div>
+                        <a onclick="CloseSellerContainer()" class="close" ></a>
+                    </div>
+                </div>
+
+                <div style="display: inline-flex; flex-direction: column;">
+                    <textarea name="" id="TextInput" placeholder="What are you interested on..."></textarea>
+
+                    <div style="display: inline-flex; flex-direction: row; align-items: center; margin-top: 15px;">
+                        <button class="FileInput" onclick="this.querySelector('input[type=file]').click();">
+                            Upload Image 
+                            <input type="file" id="FileInput" style="display: none;">
+                        </button>
+                        <p style="margin: 0 0 0 20px;" id="FileName"></p>
+                    </div>
+
+                    <div style="display: inline-flex; flex-direction: row; align-items: end; margin-top: 15px;">
+                        <button class="Save_Button " onclick="HandleInputData()"><div class="check"></div>SAVE</button>
+                    </div>
+                    
+                </div>
+
+                <div class="ItemList" id="ItemList">
+                    <!-- <div class="ItemContainer">
+                        <div style="margin-left: 20px;">
+                            <p style="display: flex;">Text</p>
+                            <button class="Secondary_Button">Download image</button>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="DownloadItemContainer" id="DownloadItemContainer">
+            <div class="DownloadItem">
+                <div class="DownloadItemControler">
+                    <button class="Save_Button" style="margin-left: 40px;" onclick="DownloadPDF()">Download</button>
+                    <a onclick="CloseDownloadItemContainer()" class="close" ></a>
+                </div>
+                <div class="DownloadItemList" id="DownloadItemList">
+                    <div id="DownloadItemList_Container">
+                        <div id="DealersDenMap" >
+
+                        </div>
+                    </div>
+                    <!-- <div class="DownloadItemElement">
+                        <div class="Seller_Info_Download">
+                            <p class="Download_Title" style="margin-bottom: 5px;">Crimm</p>
+                            <p class="Download_Title" style="font-weight: 500; margin-bottom: 5px;">- Stall: 1</p>
+                        </div>
+                        <div class="Content_Download">
+                            <p style="margin: 0 0 5px 0;" class="Download_Text">sample sample sample sample sample sample sample sample</p>
+                        </div>
+                        <div class="Content_Download">
+                            <img src="Images/Icons/1.png" style="width: 150px;">
+                        </div>
+                        <hr>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

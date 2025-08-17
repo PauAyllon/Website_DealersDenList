@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firebase JSON Example</title>
+</head>
+<body>
+  <h1>Guardar JSON en Firebase</h1>
+
+  <button onclick="guardarJSON()">Guardar JSON</button>
+  <button onclick="leerJSON()">Leer JSON</button>
+
+  <pre id="resultado"></pre>
+
+  <!-- Firebase Scripts y tu Script -->
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js"></script>
+
+  <script>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyDwNYxSb9sQtxYSIb0GJxrqFBT2Bl8N91s",
+        authDomain: "mff-dealersden-app.firebaseapp.com",
+        databaseURL: "https://mff-dealersden-app-default-rtdb.firebaseio.com",
+        projectId: "mff-dealersden-app",
+        storageBucket: "mff-dealersden-app.firebasestorage.app",
+        messagingSenderId: "1087665539682",
+        appId: "1:1087665539682:web:5bdd4cc15bfa75b8eb5f3b"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Tus JSONs
+    const json1 = {
+      nombre: "Juan",
+      edad: 30,
+      activo: true
+    };
+
+    const json2 = {
+      nombre: "Maria",
+      edad: 25,
+      activo: false
+    };
+
+    // Guardar JSONs en la base de datos
+    function guardarJSON() {
+      firebase.database().ref('usuarios/usuario1').set(json1);
+      firebase.database().ref('usuarios/usuario2').set(json2);
+      alert("JSONs guardados en Firebase.");
+    }
+
+    // Leer los JSONs desde Firebase
+    function leerJSON() {
+      firebase.database().ref('usuarios').once('value')
+        .then(snapshot => {
+          const data = snapshot.val();
+          document.getElementById("resultado").textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(error => {
+          console.error("Error al leer datos:", error);
+        });
+    }
+  </script>
+</body>
+</html>

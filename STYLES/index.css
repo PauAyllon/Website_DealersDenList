@@ -1,0 +1,235 @@
+/**/
+@font-face {
+  font-family: "Ranade_Regular";
+  src: 
+    url("../Fonts/Ranade_Complete/Fonts/WEB/fonts/Ranade-Regular.woff")format("woff"); 
+}
+
+/* Variables
+=================================================================== */
+:root {
+    --Background_Color: #2e2e2e;
+    --TextColor_Black: #000000;
+    --TextColor_White: #ffffff;
+    --Button_BorderColor: #000000;
+
+}
+
+/* Base
+=================================================================== */
+body{
+  margin:0;
+  padding: 0;
+  text-align: center;
+  opacity: 1;
+  transition: opacity .5s ease-in-out; 
+}
+
+.Button_Disabled {
+  pointer-events: none;
+  opacity: .6;
+}
+
+/* Arrows ----------------------------------------- */
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transition: .3s ease;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Close Button ----------------------------------------- */
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+/* LOG IN SCREEN
+=================================================================== */
+.LoaderContainer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa;
+    backdrop-filter: blur(7px);
+    top: 0;
+    flex-direction: column;
+}
+
+.LogInBackground {
+    width: 500px;
+    height: 480PX;
+    background-color: white;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -1px -2px 9px 5px #00000044;
+}
+
+.Title {
+    font-family: "Ranade_Regular";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Text {
+    font-family: "Ranade_Regular";
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.InputText {
+    height: 40px;
+    width: 100%;
+    resize: none;
+    font-family: "Ranade_Regular";
+    font-size: 16px;
+    border: 2px solid #00000023;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 0px #00000023;
+    margin-bottom: 10px;
+}
+
+.Principal_Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 30px;
+
+    color: var(--TextColor_Black);
+    font-weight: 600;
+    font-family: "Ranade_Regular";
+
+    background-color: #00000000;
+    border: 2px solid #00000023;
+    border-radius: 50px;
+
+    transition: .3s ease;
+    cursor: pointer;
+
+    gap: 20px;
+}
+
+.Principal_Button:hover {
+    background-color: #ffe6df;
+    box-shadow: 2px 5px 5px 0px #00000023;
+    color: rgb(179, 141, 106);
+    border: 2px solid #ffe6df;
+    border-radius: 6px;
+    transform: scale(1.1);
+}
+
+#LogInError {
+  display: flex; 
+  position: absolute; 
+  top: 79px; 
+  left: 280px; 
+  font-family: 'Ranade_Regular'; 
+  font-size: 16px;
+  pointer-events: none;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+/* USER SELECT
+=================================================================== */
+#User-select {
+    height: 40px;
+    width: 100%;
+    resize: none;
+    font-family: "Ranade_Regular";
+    font-size: 16px;
+    border: 2px solid #00000023;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 0px #00000023;
+    margin-bottom: 10px;
+}
+
+.custom-select {
+    height: 40px;
+    width: 100%;
+    resize: none;
+    font-family: "Ranade_Regular";
+    font-size: 16px;
+    border: 2px solid #00000023;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 0px #00000023;
+    margin-bottom: 10px;
+}
+.selected {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options {
+    display: none;
+    position: fixed;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 10;
+    width: 358px;
+    height: fit-content;
+    max-height: 165px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.option {
+  padding: 10px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.option:hover {
+  background-color: #ffe6df;
+  color: rgb(179, 141, 106);
+}
