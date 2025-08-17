@@ -244,4 +244,7 @@ body{
   #LogInError {
     left: 210px;
   }
+  .options {
+    width: 68%;
+  }
 }

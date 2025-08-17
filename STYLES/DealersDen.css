@@ -233,6 +233,8 @@ body{
 }
 
 /* Close Button ----------------------------------------- */
+#CloseDownload{top: 2px;}
+
 .close {
   position: absolute;
   right: 32px;
@@ -399,6 +401,7 @@ body{
     height: 100%;
     background-color: #000000aa;
     backdrop-filter: blur(7px);
+    
     top: 0;
     z-index: 20;
 }
@@ -407,6 +410,7 @@ body{
     width: 550px;
     height: 100%;
     background-color: white;
+    overflow-y: auto;
     position: relative;
     /* left: 70%; */
     box-shadow: -1px -2px 9px 5px #00000044;
@@ -704,6 +708,8 @@ body{
         right: 22px;
         top: 12px;
     }
+
+    #CloseDownload{top: 2px;}
 
     .heart {
         left: -170px;

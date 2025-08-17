@@ -34,7 +34,7 @@
                 <button id="zoomOut">−</button>
             </div>
 
-            <div class="coordenadas" id="coordenadas">X: 0, Y: 0</div>
+            <div class="coordenadas" id="coordenadas" style="opacity: 0;">X: 0, Y: 0</div>
 
             <div id="overlay"></div>
             <img src="Images/Vanncoufur_Map.png" alt="Imagen" class="imagen" id="imagen">
@@ -103,7 +103,7 @@
             <div class="DownloadItem">
                 <div class="DownloadItemControler">
                     <button class="Save_Button" style="margin-left: 40px;" onclick="DownloadPDF()">Download</button>
-                    <a onclick="CloseDownloadItemContainer()" class="close" ></a>
+                    <a onclick="CloseDownloadItemContainer()" class="close" id="CloseDownload"></a>
                 </div>
                 <div class="DownloadItemList" id="DownloadItemList">
                     <div id="DownloadItemList_Container">
