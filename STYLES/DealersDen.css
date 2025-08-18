@@ -233,7 +233,6 @@ body{
 }
 
 /* Close Button ----------------------------------------- */
-#CloseDownload{top: 2px;}
 
 .close {
   position: absolute;
@@ -516,10 +515,10 @@ body{
     cursor: pointer;
     opacity: 0;
     width: 40px;
+    height: 40px;
     position: relative;
-    left: 180px;
-    top: -22px;
     transition: .3s ease;
+    padding: 20px;
 }
 
 .ItemContainer:hover .Remove_Button {
@@ -642,6 +641,7 @@ body{
 
 .Content_Download {
     display: flex;
+    text-align: start;
 }
 
 .Download_Title {
@@ -710,7 +710,6 @@ body{
     }
 
     #CloseDownload{top: 2px;}
-
 
     #ItemForm {
         width: 80%;

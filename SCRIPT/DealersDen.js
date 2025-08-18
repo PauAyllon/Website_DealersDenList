@@ -310,17 +310,19 @@ function showItemData(items) {
       if (item.FileInput !== '') {
         ItemInput += `
           <div class="ItemContainer" style="${estiloFondo}">
-            <div style="margin-left: 20px; width: 90%; overflow: hidden;">
-              <p style="display: flex;" class="ItemText">${item.User}: ${item.TextInput}</p>
-              <button class="Download_Button" onclick="DownloadImage('${item.FileInput}', '${item.FileInputName}')">Download image</button>
-              <img src="Images/Buttons/recycle-bin_3976961.png" class="Remove_Button" ${atributoEliminar} style="top: -52px;" onclick="deleteItem('${item.key}')">
+            <div style="margin-left: 20px; width: 100%; height: 100%; overflow: hidden; text-align: start; display: flex ; flex-direction: row; align-items: center; justify-content: space-between;">
+              <div style="display:flex; flex-direction:column">
+                <p style="display: flex; height: 19px; overflow-y: hidden;" class="ItemText">${item.User}: ${item.TextInput}</p>
+                <button class="Download_Button" onclick="DownloadImage('${item.FileInput}', '${item.FileInputName}')">Download image</button>
+              </div>
+              <img src="Images/Buttons/recycle-bin_3976961.png" class="Remove_Button" ${atributoEliminar} onclick="deleteItem('${item.key}')">
             </div>
           </div>
         `;
       } else {
         ItemInput += `
           <div class="ItemContainer" style="${estiloFondo}">
-            <div style="margin-left: 20px; width: 90%; overflow: hidden;">
+            <div style="margin-left: 20px; width: 100%; height: 100%; overflow: hidden; text-align: start; display: flex ; flex-direction: row; align-items: center; justify-content: space-between;">
               <p style="display: flex;" class="ItemText">${item.User}: ${item.TextInput}</p>
               <img src="Images/Buttons/recycle-bin_3976961.png" class="Remove_Button" ${atributoEliminar} onclick="deleteItem('${item.key}')">
             </div>
