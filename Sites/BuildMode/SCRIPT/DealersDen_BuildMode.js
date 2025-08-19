@@ -19,8 +19,6 @@ firebase.initializeApp(firebaseConfig);
 // Obtener base de datos
 const database = firebase.database();
 
-const JSON_NAME = 'JSON/DealersDenSellers.json'
-
 let FB_ItemData = [];
 let FB_FavItem = [];
 
@@ -28,7 +26,7 @@ function StartData() {
   const reference_json_ItemData = firebase.database().ref('json_ItemData/' + groupcode);
   const reference_json_FavSellers = firebase.database().ref('json_FavSellers/' + groupcode);
 
-  fetch(JSON_NAME)
+  fetch('JSON/DealersDenSellers.json')
     .then(response => response.json())
     .then(data => {
         // data es el equivalente a json_sellers
