@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selector de Área en Imagen</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+
+    #container {
+      position: relative;
+      display: inline-block;
+      border: 1px solid #ccc;
+    }
+
+    #myImage {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      user-select: none;
+    }
+
+    #selectionBox {
+      position: absolute;
+      border: 2px dashed red;
+      background-color: rgba(255, 0, 0, 0.2);
+      display: none;
+      pointer-events: none;
+    }
+
+    #output {
+      margin-top: 15px;
+      font-family: monospace;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Selecciona un área en la imagen</h2>
+
+  <div id="container">
+    <img id="myImage" src="Images/Vanncoufur_Map.png" alt="Imagen de prueba" draggable="false">
+    <div id="selectionBox"></div>
+  </div>
+
+  <div id="output">Coordenadas: </div>
+
+  <script>
+    const image = document.getElementById('myImage');
+    const container = document.getElementById('container');
+    const selectionBox = document.getElementById('selectionBox');
+    const output = document.getElementById('output');
+
+    let startX, startY, isSelecting = false;
+
+    container.addEventListener('mousedown', (e) => {
+      e.preventDefault(); // Evita arrastrar la imagen
+
+      const rect = image.getBoundingClientRect();
+      startX = e.clientX - rect.left;
+      startY = e.clientY - rect.top;
+      isSelecting = true;
+
+      selectionBox.style.left = `${startX}px`;
+      selectionBox.style.top = `${startY}px`;
+      selectionBox.style.width = '0px';
+      selectionBox.style.height = '0px';
+      selectionBox.style.display = 'block';
+    });
+
+    container.addEventListener('mousemove', (e) => {
+      if (!isSelecting) return;
+
+      const rect = image.getBoundingClientRect();
+      const currentX = e.clientX - rect.left;
+      const currentY = e.clientY - rect.top;
+
+      const x = Math.min(currentX, startX);
+      const y = Math.min(currentY, startY);
+      const width = Math.abs(currentX - startX);
+      const height = Math.abs(currentY - startY);
+
+      selectionBox.style.left = `${x}px`;
+      selectionBox.style.top = `${y}px`;
+      selectionBox.style.width = `${width}px`;
+      selectionBox.style.height = `${height}px`;
+    });
+
+    container.addEventListener('mouseup', (e) => {
+      if (!isSelecting) return;
+      isSelecting = false;
+
+      const rect = image.getBoundingClientRect();
+      const endX = e.clientX - rect.left;
+      const endY = e.clientY - rect.top;
+
+      const x = Math.min(startX, endX);
+      const y = Math.min(startY, endY);
+      const width = Math.abs(endX - startX);
+      const height = Math.abs(endY - startY);
+
+      output.textContent = `Coordenadas en píxeles:
+X: ${Math.round(x)} 
+Y: ${Math.round(y)} 
+Ancho: ${Math.round(width)} 
+Alto: ${Math.round(height)}`;
+    });
+  </script>
+
+</body>
+</html>

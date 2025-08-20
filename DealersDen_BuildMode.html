@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Dealers Den - List Maker</title>
+
+        <link rel="icon" href="Images/webicon.png">
+        <link rel="stylesheet" href="STYLES/DealersDen_BuildMode.css">
+
+        <script src="SCRIPT/DealersDen_BuildMode.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        
+        <div class="LoaderContainer" id="LoaderContainer" style="display: none;"><span class="loader"></span></div>
+
+        <div style="display: flex;">
+            <div class="DD_Container" id="DD_Container">
+
+                <!-- <div class="coordenadas" id="coordenadas" style="opacity: 1;">X: 0, Y: 0</div> -->
+
+                <div id="Upload_File">
+                    <p class="Title">Upload the Files</p>
+                    
+                    <hr style="margin: 30px 0px 0px 0px;">
+                    
+                    <div style="display: flex; justify-content: start; flex-direction: column; text-align: center; align-items: center;">
+                        <p class="Text">Image</p>
+                        <div style="display: inline-flex; flex-direction: row; align-items: center; margin-top: 0px;">
+                            <button class="FileInput" id="ImageButton" onclick="this.querySelector('input[type=file]').click();" style="width: 270px;">
+                                Upload Image 
+                                <input type="file" id="ImageInput" style="display: none;" accept="image/*">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; justify-content: start; flex-direction: column; text-align: center; align-items: center;">
+                        <p class="Text">Sellers Database</p>
+                        <div style="display: inline-flex; flex-direction: row; align-items: center; margin-top: 0px;">
+                            <button class="FileInput" id="JSONButton" onclick="this.querySelector('input[type=file]').click();" style="width: 270px;">
+                                Upload JSON
+                                <input type="file" id="Json_Input" style="display: none;" accept="application/JSON">
+                            </button>
+                        </div>
+                    </div>
+
+                    <button class="FileInput Button_Disabled" id="Load_Button" style="margin-top: 20px;" onclick="LoadData()"> LOAD </button>
+                </div>
+
+                
+
+                <div id="ImageContainer">
+                    <div id="overlay"></div>
+                    <div id="selectionBox"></div>
+                    <img src="JSON/map.png" style="display: none;" class="imagen" id="imagen">
+                </div>
+                
+            </div>
+
+            <div style="width: 29%;" id="ListMenu">
+                <div style="width: 100%; display: flex ; justify-content: space-between; align-items: center;">
+                    <p class="Title" style="color: #ffffff;">SELLERS DATABASE</p>
+
+                    <div>
+                        <button id="AddSellerButton" class="FileInput Button_Disabled" onclick="ShowFormMenu()">ADD SELLER</button>
+                        <button id="SaveButton" class="FileInput Button_Disabled" onclick="SaveFile()">SAVE</button>
+                    </div>
+                    
+                </div>
+                <hr style="border: 1px solid white;">
+                <div id="sellers_list" style="overflow-y: auto; height: 87vh; scrollbar-color: #ffffff #00000000;">
+                    <!-- <div style="background-color: #ffffff; border-radius: 12px; box-shadow: 2px 5px 5px 0px #00000023; display: flex; gap: 20px; align-items: center;">
+                        <div id="Nickname" style="margin: 10px;">
+                            <p id="Nickname_Letters">CR</p>
+                        </div>
+                        <div style="width: 60%; text-align: start;">
+                            <p class="Text">Crimm</p>
+                            <p class="Text">Stall: 1</p>
+                        </div>
+                        <img src="Images/Buttons/write_5828493.png" style="width: 30px; height: 30px;" class="edit_button">
+                    </div> -->
+                </div>
+            </div>
+
+            <div style="width: 29%; display: none;" id="FormMenu">
+
+                <div style="width: 100%; display: flex ; justify-content: space-between; align-items: center;">
+                    <p class="Title" style="color: #ffffff;">SELLERS DATABASE</p>
+                    <div style="display: flex; gap:20px ;">
+                        <a onclick="CloseFormMenu()" class="close" ></a>
+                    </div>
+                    
+                </div>
+
+                <hr style="border: 1px solid white;">
+
+                <div id="Form_list" style="height: 87vh; width: 99%;">
+                    <div class="FormInputContainer">
+                        <p class="Text" style="color: #ffffff; margin: 10px 0px 5px 0px;">NAME</p>
+                        <input type="text" class="inputText" placeholder="Name..." id="NameInput">
+                    </div>
+
+                    <div class="FormInputContainer">
+                        <p class="Text" style="color: #ffffff; margin: 10px 0px 5px 0px;">STALL</p>
+                        <input type="text" class="inputText" placeholder="Stall number..." id="StallInput">
+                    </div>
+
+                    <div>
+                        <div class="FormInputContainer" style="flex-direction: row; gap: 20px; width: 100%;">
+                            <div style="width: 25%;">
+                                <p class="Text" style="color: #ffffff; margin: 10px 0px 5px 0px;">X:</p>
+                                <input type="number" class="inputText" value="0" id="XInput">
+                            </div>
+                            <div style="width: 25%;">
+                                <p class="Text" style="color: #ffffff; margin: 10px 0px 5px 0px;">Y:</p>
+                                <input type="number" class="inputText" value="0" id="YInput">
+                            </div>
+                        </div>
+                        <div class="FormInputContainer" style="flex-direction: row; gap: 20px; width: 100%;">
+                            <div style="width: 25%;">
+                                <p class="Text" style="color: #ffffff; margin: 10px 0px 5px 0px;">W:</p>
+                                <input type="number" class="inputText" value="0" id="WInput">
+                            </div>
+                            <div style="width: 25%;">
+                                <p class="Text" style="color: #ffffff; margin: 10px 0px 5px 0px;">H:</p>
+                                <input type="number" class="inputText" value="0" id="HInput">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; justify-content: start; padding: 10px;">
+                        <button class="FileInput Button_Disabled" id="CreateButton" onclick="addSeller()">CREATE</button>
+                        <button class="FileInput Button_Disabled" id="UpdateButton" onclick="updateEntry()" style="display: none;">UPDATE</button>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        <script>
+            // Create Group Code ----------------------------------------------------------------------------
+            const ImageInput = document.getElementById('ImageInput');
+            const Json_Input = document.getElementById('Json_Input')
+            const Load_Button = document.getElementById('Load_Button');
+
+            function verificarCampos() {
+                const ImageInput_Lenght = ImageInput.files.length > 0;
+                const Json_Input_Lenght = Json_Input.files.length > 0;
+
+                if (ImageInput_Lenght) {
+                    Load_Button.classList.remove('Button_Disabled');
+                } else {
+                    Load_Button.classList.add('Button_Disabled');
+                }
+            }
+
+            // Escuchar los eventos input en ambos campos
+            ImageInput.addEventListener('input', verificarCampos);
+            Json_Input.addEventListener('input', verificarCampos);
+        </script>
+
+    </body>
+</html>
