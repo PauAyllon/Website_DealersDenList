@@ -39,7 +39,7 @@
                     <div style="width: 90%; margin-left: 5%;">
                         <hr style="margin: 40px 0px 40px 0px; border: 1px solid #fff;">
                         <div style="display: flex; justify-content: center;">
-                            <button class="Principal_Button" onclick="CreateGroupMenu()">CREATE GROUP</button>
+                            <button class="Principal_Button" onclick="CreateGroupMenu()" style="width: 170px;">CREATE GROUP</button>
                         </div>
                     </div>
 
@@ -55,6 +55,7 @@
                         <div style="display: flex ; flex-direction: column; justify-content: center; text-align: start; width: 80%; margin-left: 10%;">
                             <p class="Text">Group Code</p>
                             <input type="text" class="InputText" id="NewgroupCode" placeholder="Enter your code...">
+                            <p id="GroupCodeError">Code already exist</p>
 
                             <p class="Text">User</p>
                             <input type="text" class="InputText" id="NewUsername" placeholder="Enter your name...">
@@ -75,6 +76,7 @@
                             <p class="Text">CREATE NEW USER</p>
                             <input type="text" class="InputText" id="InputText" placeholder="Enter your name...">
                             <button id="CreateUserButton" class="Principal_Button Button_Disabled" style="" onclick="CreateUser()">CREATE</button>
+                            <p id="UserError">User already exist</p>
                         </div>
                     </div>
 
@@ -110,7 +112,7 @@
                 
             </div>
 
-            <div style="z-index: 21; color: #fff;"><p id="copyright" style="font-size: 12px;">© Copyright 2025 Pau Ayllón Ortolá - All rights reserved<br>Website programmed by <a href="https://www.linkedin.com/in/pau-ayll%C3%B3n-ortol%C3%A1-021490304/" style="text-decoration: none;">Pau Ayllón Ortolá</a></p></div>
+            <div style="z-index: 2; color: #fff;"><p id="copyright" style="font-size: 12px;">© Copyright 2025 Pau Ayllón Ortolá - All rights reserved<br>Website programmed by <a href="https://www.linkedin.com/in/pau-ayll%C3%B3n-ortol%C3%A1-021490304/" style="text-decoration: none;">Pau Ayllón Ortolá</a></p></div>
 
         </div>
 

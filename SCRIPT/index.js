@@ -95,16 +95,37 @@ function CreateUser() {
     User: document.getElementById('InputText').value,
   };
 
-  const reference = firebase.database().ref('json_GroupCodes/' + inputCode);
-  reference.push(newItem)
-    .then(() => {
-      console.error("Okay");
-      window.location.href = `DealersDen.html?usuario=${document.getElementById('InputText').value}&groupcode=${inputCode}`;
-      document.getElementById('InputText').value = ''
-    })
-    .catch(error => {
-      console.error("Error al añadir item:", error);
-    });
+  const input = document.getElementById('InputText').value.trim();
+  const grupo = datosCargados.find(([nombre]) => nombre === inputCode);
+
+  if (!grupo) {
+    console.log(`Grupo "${grupoBuscado}" no encontrado.`);
+    return;
+  }
+
+  const usuarios = Object.values(grupo[1]).map(obj => obj.User.toLowerCase());
+  const encontrado = usuarios.includes(input.toLowerCase());
+
+  if (encontrado) {
+      document.getElementById('UserError').style.opacity = 1
+
+      setTimeout(function(){
+        document.getElementById('UserError').style.opacity = 0
+      },2000)
+  } else {
+    const reference = firebase.database().ref('json_GroupCodes/' + inputCode);
+    reference.push(newItem)
+      .then(() => {
+        console.error("Okay");
+        window.location.href = `DealersDen.html?usuario=${document.getElementById('InputText').value}&groupcode=${inputCode}`;
+        document.getElementById('InputText').value = ''
+      })
+      .catch(error => {
+        console.error("Error al añadir item:", error);
+      }); 
+  }
+
+  /* */
 }
 
 function setupDropdownEvents() {
@@ -144,19 +165,32 @@ function CreateGroup() {
   const GroupName = document.getElementById('NewgroupCode').value
   const UserName = document.getElementById('NewUsername').value
 
-  const newItem = {
-    User: UserName,
-  };
+  const resultados = datosCargados.filter(item => item[0] === GroupName);
 
-  const reference = firebase.database().ref('json_GroupCodes/' + GroupName);
-  reference.push(newItem)
-    .then(() => {
-      console.error("Okay");
-      window.location.href = `DealersDen.html?usuario=${UserName}&groupcode=${GroupName}`;
-    })
-    .catch(error => {
-      console.error("Error al añadir item:", error);
-    });
+  console.log(resultados)
+
+  if (resultados.length > 0) {
+    document.getElementById('GroupCodeError').style.opacity = 1
+
+    setTimeout(function(){
+      document.getElementById('GroupCodeError').style.opacity = 0
+    },2000)
+  } else {
+    const newItem = {
+      User: UserName,
+    };
+
+    const reference = firebase.database().ref('json_GroupCodes/' + GroupName);
+    reference.push(newItem)
+      .then(() => {
+        console.error("Okay");
+        window.location.href = `DealersDen.html?usuario=${UserName}&groupcode=${GroupName}`;
+      })
+      .catch(error => {
+        console.error("Error al añadir item:", error);
+      });
+  }
+
 }
 
 /* CHANGE SITE
