@@ -600,7 +600,7 @@ ImageContainer.addEventListener('touchmove', function (e) {
             const delta = newDistance / lastTouchDistance;
             scale *= delta; // acumula el zoom
             // límites de zoom opcionales
-            scale = Math.max(0.5, Math.min(scale, 3));
+            scale = Math.max(0.1, Math.min(scale, 10));
             lastTouchDistance = newDistance;
             updateTransform();
         }
