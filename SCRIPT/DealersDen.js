@@ -83,14 +83,14 @@ const zoomOutBtn = document.getElementById('zoomOut');
 const coordDisplay = document.getElementById('coordenadas');
 const overlay = document.getElementById('overlay');
 
-let scale = 1;
+let scale = .1;
 let originX = 0;
 let originY = 0;
 let isDragging = false;
 let startX, startY;
 
 const zoomStep = 0.2;
-const minScale = 0.2; // Puedes ajustarlo si quieres evitar zoom demasiado chico
+const minScale = 0.1; // Puedes ajustarlo si quieres evitar zoom demasiado chico
 
 var usuario = ''
 var groupcode = ''
@@ -224,7 +224,7 @@ function dibujarRectangulos() {
             <div class="rectangle" data-index="${index}" title="${obj.Artist}"
                 style="left: ${obj.x}px; top: ${obj.y}px; width: ${obj.w}px; height: ${obj.h}px; ${estiloFondo}"
                 onclick="handleRectClick(event)">
-                <p class="Rectangle_Title">${obj.Artist}</p>
+                <p class="Rectangle_Title"></p>
             </div>
         `;
     });
@@ -237,6 +237,7 @@ function dibujarRectangulos() {
 var index = 0;
 
 function handleRectClick(event) {
+  document.getElementById('CloseSellerList').style.display = "none"
     document.getElementById('CloseSellerContainer').style.display = "flex"
 
     index = event.currentTarget.getAttribute('data-index');
@@ -244,13 +245,13 @@ function handleRectClick(event) {
 
     if(seller.Icon == ''){
       const Nickname = seller.Artist.slice(0, 2).toUpperCase();
-      document.getElementById('Icon_Container').innerHTML = `
-        <div id="Nickname"><p id="Nickname_Letters">${Nickname}</p></div>
-      `
+      document.getElementById('seller_img').style.display = "none";
+      document.getElementById('Nickname').style.display = "flex";
+      document.getElementById('Nickname_Letters').innerHTML = Nickname
     } else {
-      /* document.getElementById('Icon_Container').innerHTML = `
-        <img src="${seller.Icon}" id="Seller_Icon">
-      ` */
+      document.getElementById('Nickname').style.display = "none";
+      document.getElementById('seller_img').style.display = "flex";
+      document.getElementById('seller_img').src = seller.Icon;
     }
 
     /* if(seller.Link == ''){
@@ -261,6 +262,8 @@ function handleRectClick(event) {
 
     document.getElementById('Seller_Name').innerText = seller.Artist;
     document.getElementById('Seller_Stand').innerText = "Stall: " + seller.Stall;
+    document.getElementById('isNSFW').innerText = seller.isNSFW;
+    document.getElementById('RRSS_Button').href = seller.Link
 
     const favoritos = new Set(FB_FavItem.filter(item => item.User === usuario).map(item => item.Artist));
     const esFavorito = favoritos.has(json_sellers[index].Artist);
@@ -276,8 +279,81 @@ function handleRectClick(event) {
     showItemData(FB_ItemData)
 }
 
+function openSellersList() {
+  document.getElementById('CloseSellerList').style.display = "flex"
+
+  let html = "";
+
+  const stallColors = {
+    A: "#453066",
+    B: "#453066",
+    C: "#453066", 
+    D: "#453066", 
+    E: "#453066",
+    V: "#453066",
+    X: "#453066",
+    T: "#453066",
+    U: "#453066",
+    W: "#453066",
+
+    F: "#43663d",
+    G: "#43663d",
+    H: "#43663d",
+    I: "#43663d",
+    J: "#43663d",
+
+    K: "#506193",
+    L: "#506193",
+    M: "#506193",
+    N: "#506193",
+    O: "#506193",
+
+    P: "#591818",
+    S: "#591818",
+
+    default: "#808080" 
+  };
+
+  json_sellers.forEach((obj, index) => {
+    const letter = obj.Stall.charAt(0).toUpperCase();
+    const color = stallColors[letter] || stallColors.default;
+
+    let iconHtml;
+    if (!obj.Icon || obj.Icon.trim() === "") {
+      const Nickname = obj.Artist.slice(0, 2).toUpperCase();
+      iconHtml = `
+        <div class="Nickname">
+          <p>${Nickname}</p>
+        </div>
+      `;
+    } else {
+      iconHtml = `<img src="${obj.Icon}" style="width:100px; height:100px; border-radius:100px; margin-right:30px; box-shadow:2px 5px 5px 0px #00000023;">`;
+    }
+
+    html += `
+      <div class="seller-item" 
+          data-index="${index}" 
+          onclick="handleRectClick(event)" 
+          style="display:flex; gap:20px; margin-bottom:10px; cursor:pointer;">
+        <div style="width:10px; background-color:${color};"></div>
+        ${iconHtml}
+        <div style="text-align:start; align-items:center;">
+          <p class="Download_Title" style="margin-bottom:5px;">${obj.Artist}</p>
+          <p class="Download_Title" style="font-weight:500; margin-bottom:5px; margin-top:5px;">
+            - Stall: ${obj.Stall}
+          </p>
+        </div>
+      </div>
+    `;
+  });
+
+  document.getElementById('SellersList').innerHTML = html;
+
+}
+
 function CloseSellerContainer() {
     document.getElementById('CloseSellerContainer').style.display = "none"
+    document.getElementById('CloseSellerList').style.display = "none"
 
     document.getElementById('TextInput').value = ''
     fileInput.value = '';
@@ -367,6 +443,7 @@ function fetchAndShowItems() {
       const data = snapshot.val();
       const itemsWithKeys = formatFBItemDataWithKeys(data);
       FB_ItemData = itemsWithKeys;
+      console.log(itemsWithKeys)
       showItemData(itemsWithKeys);
     })
     .catch(error => {
@@ -684,20 +761,20 @@ function CloseDownloadItemContainer() {
     document.getElementById('DownloadItemContainer').style.display = "none";
 
 }
-
 function DownloadPDF() {
     const elemento = document.getElementById('DownloadItemList_Container');
 
     const opciones = {
-    margin:       10,
-    filename:     'Dealers Den List.pdf',
-    image:        { type: 'jpeg', quality: 0.98 },
-    html2canvas:  { scale: 2 },
-    jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        margin:       10,
+        filename:     'Dealers Den List.pdf',
+        image:        { type: 'jpeg', quality: 1.0 },   // calidad máxima
+        html2canvas:  { scale: 3, useCORS: true },      // escala más alta y soporte CORS
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
 
     html2pdf().set(opciones).from(elemento).save();
 }
+
 
 /* INICIAR APLICACIÓN
 =============================================================================== */

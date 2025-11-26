@@ -1,0 +1,2745 @@
+[
+  {
+    "Artist": "Scaly Shop",
+    "Icon": "https://scaly.shop/cdn/shop/files/Logo.png?v=1690728930&width=70",
+    "Link": "https://scaly.shop/",
+    "Stall": "E1-2",
+    "isNSFW": "",
+    "x": 675, "y": 1900, "w": 32, "h": 116
+  },
+  {
+    "Artist": "Enginetrap",
+    "Icon": "https://enginetrap.carrd.co/assets/images/image02.png?v=b132f559",
+    "Link": "https://enginetrap.carrd.co/",
+    "Stall": "E3",
+    "isNSFW": "",
+    "x": 675, "y": 2052, "w": 32, "h": 58
+  },
+  {
+    "Artist": "TOP Dog Studios",
+    "Icon": "",
+    "Link": "https://www.top-dog.studio/",
+    "Stall": "E4-5",
+    "isNSFW": "",
+    "x": 675, "y": 2107, "w": 32, "h": 112
+  },
+  {
+    "Artist": "The Prize Counter",
+    "Icon": "https://theprizecounter.com/cdn/shop/files/Color.png?v=1693861346&width=240",
+    "Link": "https://theprizecounter.com/",
+    "Stall": "E6-7",
+    "isNSFW": "",
+    "x": 675, "y": 2260, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Mongrelist",
+    "Icon": "https://static.wixstatic.com/media/645c15_70710535d4824868817a2fdaf77e78eb~mv2_d_1325_1325_s_2.png/v1/fill/w_140,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/MHkaheasketch%20big_edited.png",
+    "Link": "https://www.mongrelist.com/",
+    "Stall": "E8",
+    "isNSFW": "",
+    "x": 675, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Triclopsrabbit",
+    "Icon": "https://triclopsrabbit.com/cdn/shop/files/newlogo.png?v=1760115830&width=150",
+    "Link": "https://triclopsrabbit.com/",
+    "Stall": "E9-10",
+    "isNSFW": "",
+    "x": 675, "y": 2465, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Sarahcat",
+    "Icon": "https://images.squarespace-cdn.com/content/v1/5eefb79909c0ab7ebfc1a75d/f15c5ea7-4e2e-4267-b708-860955f5eb93/Pink.png?format=500w",
+    "Link": "https://www.sarahcatfursuits.com/",
+    "Stall": "E13-14",
+    "isNSFW": "",
+    "x": 760, "y": 2465, "w": 32, "h": 112
+  },
+  {
+    "Artist": "TheFuzzFactory",
+    "Icon": "",
+    "Link": "https://www.thefuzzfactory.com/",
+    "Stall": "E15",
+    "isNSFW": "",
+    "x": 760, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Fursuit Glasses",
+    "Icon": "",
+    "Link": "https://fursuitglasses.com/",
+    "Stall": "E16-17",
+    "isNSFW": "",
+    "x": 760, "y": 2260, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Sofawolf",
+    "Icon": "",
+    "Link": "https://sofawolf.com/",
+    "Stall": "E18",
+    "isNSFW": "",
+    "x": 760, "y": 2160, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Firewolfstudio",
+    "Icon": "https://static.wixstatic.com/media/331651_d5b39c050d2f494aa57080e746c49507~mv2.png/v1/fill/w_99,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FireWolf%20logo%20night.png",
+    "Link": "https://www.firewolfstudio.com/",
+    "Stall": "E19",
+    "isNSFW": "",
+    "x": 760, "y": 2105, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Animalworkshop",
+    "Icon": "",
+    "Link": "https://shop.animalworkshop.co/collections/cargo-space-delivering-our-galaxies",
+    "Stall": "E20",
+    "isNSFW": "",
+    "x": 760, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "stablercake",
+    "Icon": "https://images.squarespace-cdn.com/content/v1/51c452c3e4b0c71f04ec4e0b/ecbca40c-1691-4450-bc81-a129ca3f302c/bristleiconupdate++website.png?format=750w",
+    "Link": "https://stablercake.com/",
+    "Stall": "E21-22",
+    "isNSFW": "",
+    "x": 760, "y": 1900, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Dragoncoop",
+    "Icon": "",
+    "Link": "https://dragoncoop.com/",
+    "Stall": "E11-12",
+    "isNSFW": "",
+    "x": 677, "y": 2610, "w": 112, "h": 32
+  },
+  {
+    "Artist": "Dragonmelde",
+    "Icon": "https://dragonmelde.com/wp-content/uploads/2023/01/Dragonmelde-Logo-2022-transparent-small.png",
+    "Link": "https://dragonmelde.com/",
+    "Stall": "E23-24",
+    "isNSFW": "",
+    "x": 677, "y": 1840, "w": 112, "h": 32
+  },
+
+
+
+  {
+    "Artist": "ychfursuits",
+    "Icon": "https://ychfursuits.com/cdn/shop/files/Icon-Color-1_2.png?v=1763111514&width=100",
+    "Link": "https://ychfursuits.com/",
+    "Stall": "D1",
+    "isNSFW": "",
+    "x": 970, "y": 1900, "w": 32, "h": 58
+  },
+  {
+    "Artist": "ipadunk",
+    "Icon": "",
+    "Link": "https://linktr.ee/ipadunk",
+    "Stall": "D2",
+    "isNSFW": "",
+    "x": 970, "y": 1958, "w": 32, "h": 58
+  },
+  {
+    "Artist": "soberdogs",
+    "Icon": "",
+    "Link": "https://soberdogs.weebly.com/",
+    "Stall": "D3",
+    "isNSFW": "",
+    "x": 970, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "printsbydawn",
+    "Icon": "",
+    "Link": "https://www.printsbydawn.com/",
+    "Stall": "D4",
+    "isNSFW": "",
+    "x": 970, "y": 2108, "w": 32, "h": 58
+  },
+  {
+    "Artist": "citrushyena",
+    "Icon": "",
+    "Link": "https://citrushyena.bigcartel.com/",
+    "Stall": "D5",
+    "isNSFW": "",
+    "x": 970, "y": 2160, "w": 32, "h": 58
+  },
+  {
+    "Artist": "simplenicks",
+    "Icon": "",
+    "Link": "https://www.simplenicks.com/",
+    "Stall": "D6",
+    "isNSFW": "",
+    "x": 970, "y": 2260, "w": 32, "h": 58
+  },
+  {
+    "Artist": "makotoa",
+    "Icon": "https://payhip.com/cdn-cgi/image/format=auto,width=1500/https://pe56d.s3.amazonaws.com/o_1im9f52n81c129jj1feh19bh9ccc.png",
+    "Link": "https://makotoa.com/",
+    "Stall": "D7",
+    "isNSFW": "",
+    "x": 970, "y": 2318, "w": 32, "h": 58
+  },
+  {
+    "Artist": "woolblossom",
+    "Icon": "",
+    "Link": "https://woolblossom.shop/",
+    "Stall": "D8",
+    "isNSFW": "",
+    "x": 970, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "hibiscusstitch",
+    "Icon": "",
+    "Link": "https://www.hibiscusstitch.com/",
+    "Stall": "D9",
+    "isNSFW": "",
+    "x": 970, "y": 2468, "w": 32, "h": 58
+  },
+  {
+    "Artist": "absolutecreaturevibes",
+    "Icon": "https://absolutecreaturevibes.com/cdn/shop/files/IMG_3774.png?v=1693373341&width=300",
+    "Link": "https://absolutecreaturevibes.com/",
+    "Stall": "D10",
+    "isNSFW": "",
+    "x": 970, "y": 2520, "w": 32, "h": 58
+  },
+  {
+    "Artist": "neonslushie",
+    "Icon": "https://images.squarespace-cdn.com/content/v1/6553bd65acd6136a5a41f04c/8a148c55-238f-4e58-b06d-dcdabfd0b529/Logo-2-Color.png?format=1500w",
+    "Link": "https://www.neonslushie.com/",
+    "Stall": "D13",
+    "isNSFW": "",
+    "x": 1055, "y": 2520, "w": 32, "h": 58
+  },
+  {
+    "Artist": "goodbyegator",
+    "Icon": "https://goodbyegator.com/assets/images/image04.png?v=e4d50907",
+    "Link": "https://goodbyegator.com/",
+    "Stall": "D14",
+    "isNSFW": "",
+    "x": 1055, "y": 2468, "w": 32, "h": 58
+  },
+  {
+    "Artist": "highwirecats",
+    "Icon": "",
+    "Link": "https://www.highwirecats.com/gallery",
+    "Stall": "D15",
+    "isNSFW": "",
+    "x": 1055, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "krisstarlein",
+    "Icon": "https://images.squarespace-cdn.com/content/v1/525b68dee4b058049560d5fb/4f460405-6da0-4efd-b9e3-c4a4f1ecbed7/Solid+Logo.png?format=500w",
+    "Link": "https://www.krisstarlein.com/",
+    "Stall": "D16-17",
+    "isNSFW": "",
+    "x": 1055, "y": 2260, "w": 32, "h": 112
+  },
+  {
+    "Artist": "LemonCremeStudios",
+    "Icon": "https://i.etsystatic.com/14566612/r/isla/3fc438/31853821/isla_100x100.31853821_rkven1t4.jpg",
+    "Link": "https://www.etsy.com/shop/LemonCremeStudios",
+    "Stall": "D18-19",
+    "isNSFW": "",
+    "x": 1055, "y": 2108, "w": 32, "h": 112
+  },
+  {
+    "Artist": "skellulite",
+    "Icon": "",
+    "Link": "https://skellulite.com/",
+    "Stall": "D20",
+    "isNSFW": "",
+    "x": 1055, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "lemonpenguininfo",
+    "Icon": "",
+    "Link": "https://lemonpenguininfo.wixsite.com/lemon-penguin-portfo/portfolio",
+    "Stall": "D21",
+    "isNSFW": "",
+    "x": 1055, "y": 1900, "w": 32, "h": 58
+  },
+  {
+    "Artist": "matchapeaches",
+    "Icon": "https://www.matchapeaches.art/assets/images/image02.png?v=b69361f6",
+    "Link": "https://www.matchapeaches.art/",
+    "Stall": "D22",
+    "isNSFW": "",
+    "x": 1055, "y": 1958, "w": 32, "h": 58
+  },
+  {
+    "Artist": "animalshapes",
+    "Icon": "",
+    "Link": "https://www.animalshapes.ca/",
+    "Stall": "E11",
+    "isNSFW": "",
+    "x": 974, "y": 2610, "w": 58, "h": 32
+  },
+  {
+    "Artist": "animalshapes",
+    "Icon": "",
+    "Link": "https://www.animalshapes.ca/",
+    "Stall": "E12",
+    "isNSFW": "",
+    "x": 1027, "y": 2610, "w": 58, "h": 32
+  },
+  {
+    "Artist": "remimakes",
+    "Icon": "",
+    "Link": "https://drive.google.com/drive/folders/13qwV5EJ8aLI8s4hlE-kBu_RC6nRYIsPo",
+    "Stall": "E23",
+    "isNSFW": "",
+    "x": 1027, "y": 1840, "w": 58, "h": 32
+  },
+  {
+    "Artist": "devilcandy",
+    "Icon": "",
+    "Link": "https://devilcandy.net/",
+    "Stall": "E24",
+    "isNSFW": "",
+    "x": 974, "y": 1840, "w": 58, "h": 32
+  },
+
+
+
+
+  {
+    "Artist": "sibifursuits",
+    "Icon": "https://static.wixstatic.com/media/f0ee0c_5e663d9f804f4f64b556e6ab0a350301~mv2.png/v1/fill/w_57,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo1.png",
+    "Link": "https://www.sibifursuits.com/",
+    "Stall": "C1",
+    "isNSFW": "",
+    "x": 1265, "y": 1900, "w": 32, "h": 58
+  },
+  {
+    "Artist": "parttimedragons",
+    "Icon": "",
+    "Link": "https://parttimedragons.com/",
+    "Stall": "C2",
+    "isNSFW": "",
+    "x": 1265, "y": 1958, "w": 32, "h": 58
+  },
+  {
+    "Artist": "screamingcrowscreations",
+    "Icon": "",
+    "Link": "https://screamingcrowscreations.weebly.com",
+    "Stall": "C3",
+    "isNSFW": "",
+    "x": 1265, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "selfmademan",
+    "Icon": "https://selfmademan.carrd.co/assets/images/image01.png?v=65d3d581",
+    "Link": "https://selfmademan.carrd.co/",
+    "Stall": "C4",
+    "isNSFW": "",
+    "x": 1265, "y": 2108, "w": 32, "h": 58
+  },
+  {
+    "Artist": "bkvendor",
+    "Icon": "",
+    "Link": "https://bkvendor.carrd.co/",
+    "Stall": "C5",
+    "isNSFW": "",
+    "x": 1265, "y": 2160, "w": 32, "h": 58
+  },
+  {
+    "Artist": "fennecrafts",
+    "Icon": "",
+    "Link": "https://docs.google.com/document/d/16D4lY0iXJJXBhJwjaCDKlbbXDKcPfEiCBnFt-0EeUSE/edit?tab=t.0",
+    "Stall": "C6",
+    "isNSFW": "",
+    "x": 1265, "y": 2260, "w": 32, "h": 58
+  },
+  {
+    "Artist": "NRW Artz",
+    "Icon": "",
+    "Link": "https://www.google.com/url?q=https://Linktr.ee/NRWArtz&sa=D&source=editors&ust=1764143806098799&usg=AOvVaw2IZw5rmy1Q6LQG7PMB4a8h",
+    "Stall": "C7",
+    "isNSFW": "",
+    "x": 1265, "y": 2318, "w": 32, "h": 58
+  },
+  {
+    "Artist": "cometkins",
+    "Icon": "",
+    "Link": "https://www.cometkins.com/",
+    "Stall": "C8",
+    "isNSFW": "",
+    "x": 1265, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "stingraysuits",
+    "Icon": "https://static.wixstatic.com/media/fffa78_6f85c96737a44b5fb4693231ed9060c6~mv2.png/v1/fill/w_79,h_79,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Color2.png",
+    "Link": "https://stingraysuits.wixsite.com/fursuits/about",
+    "Stall": "C9",
+    "isNSFW": "",
+    "x": 1265, "y": 2468, "w": 32, "h": 58
+  },
+  {
+    "Artist": "silverstudiosdesign",
+    "Icon": "https://lirp.cdn-website.com/3f1e8a80/dms3rep/multi/opt/IMG_20220808_122411_299+%281%29-192w.png",
+    "Link": "https://silverstudiosdesign.com/",
+    "Stall": "C10",
+    "isNSFW": "",
+    "x": 1265, "y": 2520, "w": 32, "h": 58
+  },
+  {
+    "Artist": "drak-arts",
+    "Icon": "",
+    "Link": "https://www.drak-arts.com/",
+    "Stall": "C13",
+    "isNSFW": "",
+    "x": 1345, "y": 2520, "w": 32, "h": 58
+  },
+  {
+    "Artist": "soapyfluffs",
+    "Icon": "https://www.soapyfluffs.com/wp-content/uploads/2025/11/soapyfluffs-logo-300px-v2-Copy-120x120.png",
+    "Link": "https://www.soapyfluffs.com/",
+    "Stall": "C14",
+    "isNSFW": "",
+    "x": 1345, "y": 2468, "w": 32, "h": 58
+  },
+  {
+    "Artist": "chocodile",
+    "Icon": "",
+    "Link": "https://chocodile.net/",
+    "Stall": "C15",
+    "isNSFW": "",
+    "x": 1345, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "alastairwildfire",
+    "Icon": "",
+    "Link": "http://www.alastairwildfire.com/",
+    "Stall": "C16",
+    "isNSFW": "+18",
+    "x": 1345, "y": 2318, "w": 32, "h": 58
+  },
+  {
+    "Artist": "DiZZiNESS",
+    "Icon": "",
+    "Link": "",
+    "Stall": "C17",
+    "isNSFW": "",
+    "x": 1345, "y": 2260, "w": 32, "h": 58
+  },
+  {
+    "Artist": "myarmcanfly",
+    "Icon": "",
+    "Link": "https://myarmcanfly.net/",
+    "Stall": "C18-19",
+    "isNSFW": "",
+    "x": 1345, "y": 2108, "w": 32, "h": 112
+  },
+  {
+    "Artist": "drakenbyte",
+    "Icon": "https://drakenbyte.com/assets/images/image03.jpg?v=71cdc573",
+    "Link": "https://drakenbyte.com/",
+    "Stall": "C20",
+    "isNSFW": "",
+    "x": 1345, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "pantherapalm",
+    "Icon": "",
+    "Link": "https://pantherapalm.wixsite.com/pantherapalm",
+    "Stall": "C21",
+    "isNSFW": "",
+    "x": 1345, "y": 1900, "w": 32, "h": 58
+  },
+  {
+    "Artist": "crosscritters",
+    "Icon": "",
+    "Link": "https://crosscritters.carrd.co/",
+    "Stall": "C22",
+    "isNSFW": "",
+    "x": 1345, "y": 1958, "w": 32, "h": 58
+  },
+  {
+    "Artist": "deerhudsoncrafts",
+    "Icon": "https://deerhudsoncrafts.carrd.co/assets/images/image01.jpg?v=f75f64e6",
+    "Link": "https://deerhudsoncrafts.carrd.co/",
+    "Stall": "C21-22",
+    "isNSFW": "",
+    "x": 1263, "y": 2610, "w": 112, "h": 32
+  },
+  {
+    "Artist": "bunniesandcream",
+    "Icon": "https://static.wixstatic.com/media/b34fb5_7bc8a01a6c964ff39b8b16e734727131~mv2.jpg/v1/fill/w_691,h_234,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Banner2-01.jpg",
+    "Link": "https://www.bunniesandcream.com/",
+    "Stall": "C23-24",
+    "isNSFW": "",
+    "x": 1263, "y": 1840, "w": 112, "h": 32
+  },
+
+
+
+  
+  {
+    "Artist": "flairfighter",
+    "Icon": "https://flairfighter.com/cdn/shop/files/FLAIRFIGHTER-LOGO-TRANSPARENT_410x.PNG?v=1615927133",
+    "Link": "https://flairfighter.com/",
+    "Stall": "B1",
+    "isNSFW": "",
+    "x": 1560, "y": 1900, "w": 32, "h": 58
+  },
+  {
+    "Artist": "theartofmarci",
+    "Icon": "https://theartofmarci.com/wp-content/uploads/2024/06/rainbowcat.png",
+    "Link": "https://theartofmarci.com/",
+    "Stall": "B2",
+    "isNSFW": "",
+    "x": 1560, "y": 1958, "w": 32, "h": 58
+  },
+  {
+    "Artist": "ifusmoraine",
+    "Icon": "",
+    "Link": "https://www.ifusmoraine.com/",
+    "Stall": "B3",
+    "isNSFW": "",
+    "x": 1560, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "sixthleafcloverstore",
+    "Icon": "",
+    "Link": "https://sixthleafcloverstore.com/",
+    "Stall": "B4-5",
+    "isNSFW": "",
+    "x": 1560, "y": 2108, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Malytwotails",
+    "Icon": "",
+    "Link": "https://sites.google.com/view/contact-mbm-portfolio",
+    "Stall": "B6-7",
+    "isNSFW": "",
+    "x": 1560, "y": 2260, "w": 32, "h": 112
+  },
+  {
+    "Artist": "michelelight",
+    "Icon": "",
+    "Link": "https://www.michelelight.com/",
+    "Stall": "B8",
+    "isNSFW": "",
+    "x": 1560, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "caribouink",
+    "Icon": "",
+    "Link": "https://www.caribouink.com/",
+    "Stall": "B9-10",
+    "isNSFW": "",
+    "x": 1560, "y": 2468, "w": 32, "h": 112
+  },
+  {
+    "Artist": "pudgical",
+    "Icon": "",
+    "Link": "https://x.com/pudgical",
+    "Stall": "B13",
+    "isNSFW": "+18",
+    "x": 1640, "y": 2520, "w": 32, "h": 58
+  },
+  {
+    "Artist": "kaycatsart",
+    "Icon": "",
+    "Link": "https://www.kaycatsart.com/",
+    "Stall": "B14",
+    "isNSFW": "",
+    "x": 1640, "y": 2468, "w": 32, "h": 58
+  },
+  {
+    "Artist": "pookatdinocrafts",
+    "Icon": "https://i.etsystatic.com/5986656/r/isla/a05bd7/28256046/isla_100x100.28256046_sk6g1x97.jpg",
+    "Link": "https://www.etsy.com/shop/pookatdinocrafts",
+    "Stall": "B15",
+    "isNSFW": "",
+    "x": 1640, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "peppercoyote",
+    "Icon": "",
+    "Link": "https://peppercoyote.bandcamp.com/",
+    "Stall": "B16-17",
+    "isNSFW": "",
+    "x": 1640, "y": 2260, "w": 32, "h": 112
+  },
+  {
+    "Artist": "feralcandy",
+    "Icon": "https://feralcandy.carrd.co/assets/images/image01.png?v=26b192d6",
+    "Link": "https://feralcandy.carrd.co/",
+    "Stall": "B18",
+    "isNSFW": "",
+    "x": 1640, "y": 2164, "w": 32, "h": 58
+  },
+  {
+    "Artist": "thefablemarket",
+    "Icon": "",
+    "Link": "https://sites.google.com/view/thefablemarket/home",
+    "Stall": "B19",
+    "isNSFW": "",
+    "x": 1640, "y": 2108, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Darling Ear Shop",
+    "Icon": "",
+    "Link": "https://desconportfolio.carrd.co/",
+    "Stall": "B20",
+    "isNSFW": "",
+    "x": 1640, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "animalskullmasks",
+    "Icon": "",
+    "Link": "https://www.animalskullmasks.com/",
+    "Stall": "B21",
+    "isNSFW": "",
+    "x": 1640, "y": 1900, "w": 32, "h": 58
+  },
+  {
+    "Artist": "sasharjones",
+    "Icon": "",
+    "Link": "https://sasharjones.com/",
+    "Stall": "B22",
+    "isNSFW": "",
+    "x": 1640, "y": 1958, "w": 32, "h": 58
+  },
+  {
+    "Artist": "lake-mutt",
+    "Icon": "",
+    "Link": "https://lake-mutt.com/",
+    "Stall": "E21-22",
+    "isNSFW": "",
+    "x": 1560, "y": 2610, "w": 112, "h": 32
+  },
+  {
+    "Artist": "jonathanvair",
+    "Icon": "",
+    "Link": "https://www.jonathanvair.com/",
+    "Stall": "E21-22",
+    "isNSFW": "+18",
+    "x": 1560, "y": 1840, "w": 112, "h": 32
+  },
+
+
+
+  {
+    "Artist": "Lucky Dragon",
+    "Icon": "",
+    "Link": "https://drive.google.com/drive/folders/1cJQN4TtmVxrGTz9yosnbRWlgu3DE2FI8",
+    "Stall": "A4-5",
+    "isNSFW": "",
+    "x": 1855, "y": 2108, "w": 32, "h": 112
+  },
+  {
+    "Artist": "luckycatmarket",
+    "Icon": "https://luckycatmarket.co/cdn/shop/files/thumbnail_Justcatcircle_252f2f63-3b2b-4fec-af45-c3510006728e_180x.png?v=1653055729",
+    "Link": "https://luckycatmarket.co/",
+    "Stall": "A6",
+    "isNSFW": "",
+    "x": 1855, "y": 2260, "w": 32, "h": 58
+  },
+  {
+    "Artist": "soic",
+    "Icon": "",
+    "Link": "https://soiccatalog.square.site/",
+    "Stall": "A7",
+    "isNSFW": "",
+    "x": 1855, "y": 2318, "w": 32, "h": 58
+  },
+  {
+    "Artist": "beans in things",
+    "Icon": "https://beansinthingz.com/wp-content/uploads/2022/10/framed-transparent-banner-300x156.png",
+    "Link": "https://beansinthingz.com/",
+    "Stall": "A8-10",
+    "isNSFW": "",
+    "x": 1855, "y": 2410, "w": 32, "h": 170
+  },
+  
+  {
+    "Artist": "nutcaseart",
+    "Icon": "",
+    "Link": "https://nutcaseart.com/",
+    "Stall": "A13",
+    "isNSFW": "",
+    "x": 1935, "y": 2520, "w": 32, "h": 58
+  },
+  {
+    "Artist": "kemonoimports",
+    "Icon": "",
+    "Link": "https://www.kemonoimports.com/",
+    "Stall": "A14",
+    "isNSFW": "",
+    "x": 1935, "y": 2468, "w": 32, "h": 58
+  },
+  {
+    "Artist": "shejackalarts",
+    "Icon": "",
+    "Link": "https://shejackalarts.carbonmade.com/",
+    "Stall": "A15",
+    "isNSFW": "",
+    "x": 1935, "y": 2410, "w": 32, "h": 58
+  },
+  {
+    "Artist": "wafflewishes",
+    "Icon": "https://img1.wsimg.com/isteam/ip/f35c5ff4-e8ec-4d37-b752-1fce3337d3d9/Black%20Logo%20trimmed.PNG/:/rs=w:442,h:200,cg:true,m/cr=w:442,h:200/qt=q:95",
+    "Link": "https://wafflewishes.com/",
+    "Stall": "A16-17",
+    "isNSFW": "",
+    "x": 1935, "y": 2260, "w": 32, "h": 112
+  },
+  {
+    "Artist": "adventurecatstore",
+    "Icon": "",
+    "Link": "https://www.etsy.com/shop/adventurecatstore/?etsrc=sdt",
+    "Stall": "A18",
+    "isNSFW": "",
+    "x": 1935, "y": 2162, "w": 32, "h": 58
+  },
+  {
+    "Artist": "peripendrake",
+    "Icon": "",
+    "Link": "https://peripendrake.carrd.co/",
+    "Stall": "A19",
+    "isNSFW": "",
+    "x": 1935, "y": 2108, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Croc Confidentil",
+    "Icon": "https://storage.ko-fi.com/cdn/useruploads/1a035c53-e259-4183-8f89-a5a313c559db_b4069a48-5965-41b4-b36c-09ec62ba74.png",
+    "Link": "https://ko-fi.com/fexazaur/shop",
+    "Stall": "A20",
+    "isNSFW": "",
+    "x": 1935, "y": 2050, "w": 32, "h": 58
+  },
+  {
+    "Artist": "heyitszray",
+    "Icon": "",
+    "Link": "https://heyitszray.storenvy.com/",
+    "Stall": "A21",
+    "isNSFW": "",
+    "x": 1935, "y": 1900, "w": 32, "h": 58
+  },
+  {
+    "Artist": "chibbutts",
+    "Icon": "",
+    "Link": "https://chibbutts-cottage.storenvy.com/",
+    "Stall": "A22",
+    "isNSFW": "",
+    "x": 1935, "y": 1958, "w": 32, "h": 58
+  },
+  {
+    "Artist": "prismpaws",
+    "Icon": "",
+    "Link": "https://prismpaws.art/",
+    "Stall": "A23-24",
+    "isNSFW": "",
+    "x": 1855, "y": 1840, "w": 112, "h": 32
+  },
+  {
+    "Artist": "joaquinbaldwin",
+    "Icon": "https://www.joaquinbaldwin.com/cdn/shop/files/Joaquin_Baldwin_logo_-_Main.png?v=1709081609&width=100",
+    "Link": "https://www.joaquinbaldwin.com/",
+    "Stall": "A11",
+    "isNSFW": "",
+    "x": 1855, "y": 2610, "w": 58, "h": 32
+  },
+  {
+    "Artist": "doginacafe",
+    "Icon": "https://ugc.production.linktr.ee/3df9c02b-ec07-4318-bb29-8ed86c7400b3_uppies-zoomed.png?io=true&size=avatar-v3_0",
+    "Link": "https://linktr.ee/doginacafe",
+    "Stall": "A12",
+    "isNSFW": "",
+    "x": 1913, "y": 2610, "w": 58, "h": 32
+  },
+
+
+
+  {
+    "Artist": "blue Canary",
+    "Icon": "",
+    "Link": "https://bluecanaryphoto.wixsite.com/bluecanarygallery",
+    "Stall": "J1",
+    "isNSFW": "",
+    "x": 675, "y": 2957, "w": 32, "h": 58
+  },
+  {
+    "Artist": "antlerworks",
+    "Icon": "https://lh3.googleusercontent.com/sitesv/AAzXCkf6PJwq0cwdYQec3ybgayiDsy_6_Vx3lHF72Ypf_vmyZoSq8WkYq5qxif9BePiHaHSj5LKI5zJ4EX8Thqsy7ca8PJdHKvxJn0oWEHL7qZM0hrZQ7jMueLFuz0Eknl5bW7WXQdKIvF-mQky2x4-UgEdPPWDxmJ7uTqMjipcUYb48j4NXf_s_v53rMGQ=w16383",
+    "Link": "https://sites.google.com/view/antlerworks/home",
+    "Stall": "J2",
+    "isNSFW": "",
+    "x": 675, "y": 3008, "w": 32, "h": 58
+  },
+  {
+    "Artist": "margaretyflanagan",
+    "Icon": "",
+    "Link": "https://margaretyflanagan.wixsite.com/portfolio/puppet-fabrication",
+    "Stall": "J3",
+    "isNSFW": "",
+    "x": 675, "y": 3062, "w": 32, "h": 58
+  },
+  {
+    "Artist": "melissamendelsonart",
+    "Icon": "https://static.wixstatic.com/media/816933_1780a9f150e641b4a39512fdf54198d7~mv2.png/v1/fill/w_127,h_127,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Melissa%20Mendelson%20Art%20logo.png",
+    "Link": "https://www.melissamendelsonart.com/furry-original-con",
+    "Stall": "J4-5",
+    "isNSFW": "",
+    "x": 675, "y": 3164, "w": 32, "h": 112
+  },
+  {
+    "Artist": "gryphonbook",
+    "Icon": "",
+    "Link": "https://gryphonbook.com/",
+    "Stall": "J6-8",
+    "isNSFW": "",
+    "x": 675, "y": 3317, "w": 32, "h": 170
+  },
+  {
+    "Artist": "Crow Party",
+    "Icon": "https://crow.party/cdn/shop/files/pixelshrugs_shopify_400x.png?v=1758427677",
+    "Link": "https://crow.party/",
+    "Stall": "J9",
+    "isNSFW": "",
+    "x": 675, "y": 3522, "w": 32, "h": 58
+  },
+  {
+    "Artist": "monstrousonmain",
+    "Icon": "",
+    "Link": "https://www.monstrousonmain.com/",
+    "Stall": "J10",
+    "isNSFW": "+18",
+    "x": 675, "y": 3580, "w": 32, "h": 58
+  },
+  {
+    "Artist": "eaglidots",
+    "Icon": "https://eaglidots.com/wp-content/themes/custom-eagli/images/eaglidots.png",
+    "Link": "https://eaglidots.com/",
+    "Stall": "J13-14",
+    "isNSFW": "",
+    "x": 760, "y": 3522, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Gremlin's Grove",
+    "Icon": "",
+    "Link": "https://trello.com/b/nLXlFbn7/gremlins-grove-archive",
+    "Stall": "J15-16",
+    "isNSFW": "",
+    "x": 760, "y": 3370, "w": 32, "h": 112
+  },
+  {
+    "Artist": "gustlywolf",
+    "Icon": "",
+    "Link": "https://gustlywolf.carrd.co/",
+    "Stall": "J17",
+    "isNSFW": "",
+    "x": 760, "y": 3317, "w": 32, "h": 58
+  },
+  {
+    "Artist": "athousandrasps",
+    "Icon": "",
+    "Link": "https://www.athousandrasps.com/",
+    "Stall": "J18",
+    "isNSFW": "",
+    "x": 760, "y": 3217, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Joshiah",
+    "Icon": "https://a.furaffinity.net/1614176404/joshiah.gif",
+    "Link": "https://www.furaffinity.net/user/joshiah",
+    "Stall": "J19",
+    "isNSFW": "",
+    "x": 760, "y": 3162, "w": 32, "h": 58
+  },
+  {
+    "Artist": "sharkeroni",
+    "Icon": "https://i.etsystatic.com/10612507/r/isla/2deaf2/47045946/isla_100x100.47045946_m1uornsn.jpg",
+    "Link": "https://www.etsy.com/shop/sharkeroni/?etsrc=sdt",
+    "Stall": "J20",
+    "isNSFW": "",
+    "x": 760, "y": 3065, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Thriveordie",
+    "Icon": "",
+    "Link": "https://thriveordie.life/",
+    "Stall": "J21-22",
+    "isNSFW": "",
+    "x": 760, "y": 2957, "w": 32, "h": 112
+  },
+  {
+    "Artist": "TheRoyalGryphon",
+    "Icon": "https://pbs.twimg.com/profile_images/1951676751983054848/-WUZ8QuA_400x400.png",
+    "Link": "https://x.com/TheRoyalGryphon",
+    "Stall": "J11-12",
+    "isNSFW": "",
+    "x": 677, "y": 3667, "w": 112, "h": 32
+  },
+  {
+    "Artist": "tealcicada",
+    "Icon": "",
+    "Link": "https://tealcicada.com/",
+    "Stall": "J23",
+    "isNSFW": "",
+    "x": 677, "y": 2894, "w": 58, "h": 32
+  },
+  {
+    "Artist": "daemonkitsune",
+    "Icon": "https://storage.ko-fi.com/cdn/useruploads/679b3e7e-7aa2-45b7-ba07-4b2cd6b641aa.png",
+    "Link": "https://ko-fi.com/daemonkitsune",
+    "Stall": "J23",
+    "isNSFW": "",
+    "x": 730, "y": 2894, "w": 58, "h": 32
+  },
+
+  
+
+
+  {
+    "Artist": "Moko's makery",
+    "Icon": "https://static.wixstatic.com/media/f41492_1115dd58c3b141a89cbacf4c21c03dc9~mv2.jpg/v1/crop/x_296,y_736,w_2306,h_2092/fill/w_257,h_233,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_20190904_023024_695.jpg",
+    "Link": "https://www.mokosmakery.com/",
+    "Stall": "I1-2",
+    "isNSFW": "",
+    "x": 970, "y": 2957, "w": 32, "h": 112
+  },
+  {
+    "Artist": "aloegatorarts",
+    "Icon": "https://49be6bde28f8eefaa435.cdn6.editmysite.com/uploads/b/49be6bde28f8eefaa43532cd4b82e9f11b2157d1e26ffd8dde613628efa2fe91/Label_1707436337.png?width=2400&optimize=medium",
+    "Link": "https://aloegatorarts.square.site/",
+    "Stall": "I3",
+    "isNSFW": "",
+    "x": 970, "y": 3062, "w": 32, "h": 58
+  },
+  {
+    "Artist": "tech621",
+    "Icon": "https://www.tech621.com/Tech621.png",
+    "Link": "https://www.tech621.com/",
+    "Stall": "I4-5",
+    "isNSFW": "",
+    "x": 970, "y": 3164, "w": 32, "h": 112
+  },
+  {
+    "Artist": "dariaaksenova",
+    "Icon": "https://images.squarespace-cdn.com/content/v1/58b64ab2d2b857a4ad99b44b/34c3976d-69ca-424f-b714-b75aea4bb83b/LOGO-WITH-WHITE-BORDER.png?format=500w",
+    "Link": "https://dariaaksenova.com/",
+    "Stall": "I6-8",
+    "isNSFW": "",
+    "x": 970, "y": 3317, "w": 32, "h": 170
+  },
+  {
+    "Artist": "foxclover",
+    "Icon": "https://images.squarespace-cdn.com/content/v1/64666dca490b020a99132a0e/79bb985d-42e4-49e0-b766-4dc3f7767de5/foxclover.png?format=1500w",
+    "Link": "https://foxclover.art/",
+    "Stall": "I9",
+    "isNSFW": "",
+    "x": 970, "y": 3522, "w": 32, "h": 58
+  },
+  {
+    "Artist": "ukiyomimi",
+    "Icon": "",
+    "Link": "https://ukiyomimi.com/",
+    "Stall": "I10",
+    "isNSFW": "+18",
+    "x": 970, "y": 3580, "w": 32, "h": 58
+  },
+  {
+    "Artist": "spacecatcrew",
+    "Icon": "",
+    "Link": "https://spacecatcrew.carrd.co/",
+    "Stall": "I11-12",
+    "isNSFW": "",
+    "x": 972, "y": 3667, "w": 112, "h": 32
+  },
+  {
+    "Artist": "aetherwears",
+    "Icon": "",
+    "Link": "https://www.aetherwears.com/",
+    "Stall": "I13-14",
+    "isNSFW": "",
+    "x": 1055, "y": 3522, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Crop Shop",
+    "Icon": "",
+    "Link": "https://crocshopconapp.carrd.co/",
+    "Stall": "I15",
+    "isNSFW": "",
+    "x": 1055, "y": 3422, "w": 32, "h": 58
+  },
+  {
+    "Artist": "keeatah",
+    "Icon": "",
+    "Link": "https://www.instagram.com/keeatah/",
+    "Stall": "I16",
+    "isNSFW": "",
+    "x": 1055, "y": 3370, "w": 32, "h": 58
+  },
+  {
+    "Artist": "pocketwolffursuits",
+    "Icon": "",
+    "Link": "https://www.pocketwolffursuits.com/",
+    "Stall": "I17",
+    "isNSFW": "",
+    "x": 1055, "y": 3317, "w": 32, "h": 58
+  },
+  {
+    "Artist": "fursewnastudios",
+    "Icon": "",
+    "Link": "https://www.fursewnastudios.com/",
+    "Stall": "I18-19",
+    "isNSFW": "",
+    "x": 1055, "y": 3162, "w": 32, "h": 112
+  },
+  {
+    "Artist": "pinkuscraftycottage",
+    "Icon": "",
+    "Link": "https://www.pinkuscraftycottage.com/",
+    "Stall": "I20-22",
+    "isNSFW": "",
+    "x": 1055, "y": 2957, "w": 32, "h": 170
+  },
+  {
+    "Artist": "potachi",
+    "Icon": "https://m2.22slides.com/potachi/pochi2-370.png?sh=0&w=1400&s=1da9a72efba8f7670439b9b5c3461729",
+    "Link": "https://www.potachi.ink/",
+    "Stall": "I23",
+    "isNSFW": "",
+    "x": 1025, "y": 2894, "w": 58, "h": 32
+  },
+  {
+    "Artist": "Galaxy Clothing",
+    "Icon": "https://galaxy.clothing/cdn/shop/files/astrasimple3_1.png?v=1705975955&width=90",
+    "Link": "https://galaxy.clothing/",
+    "Stall": "I24",
+    "isNSFW": "",
+    "x": 972, "y": 2894, "w": 58, "h": 32
+  },
+
+
+
+  {
+    "Artist": "gabshiba",
+    "Icon": "https://images.squarespace-cdn.com/content/v1/5ddd9f30ea569a5a024f6764/1574805529260-LJGE0GDJKS9GFZBNIQNJ/LOGO.png?format=1500w",
+    "Link": "https://www.gabshiba.com/shop",
+    "Stall": "H1",
+    "isNSFW": "+18",
+    "x": 1265, "y": 2957, "w": 32, "h": 58
+  },
+  {
+    "Artist": "gildedmantis",
+    "Icon": "",
+    "Link": "https://gildedmantis.com/",
+    "Stall": "H2",
+    "isNSFW": "",
+    "x": 1265, "y": 3008, "w": 32, "h": 58
+  },
+  {
+    "Artist": "teeganblu",
+    "Icon": "https://teeganblu.com/cdn/shop/files/akita_logo_for_banner_and_signs.png?v=1750533268&width=160",
+    "Link": "https://teeganblu.com/",
+    "Stall": "H3",
+    "isNSFW": "",
+    "x": 1265, "y": 3062, "w": 32, "h": 58
+  },
+  {
+    "Artist": "talenshistudios",
+    "Icon": "",
+    "Link": "https://www.talenshistudios.com/",
+    "Stall": "H4-5",
+    "isNSFW": "",
+    "x": 1265, "y": 3164, "w": 32, "h": 112
+  },
+  {
+    "Artist": "unconventionaloutfitters",
+    "Icon": "",
+    "Link": "https://unconventionaloutfitters.com/",
+    "Stall": "H6",
+    "isNSFW": "",
+    "x": 1265, "y": 3317, "w": 32, "h": 58
+  },
+  {
+    "Artist": "hydehermitstudio",
+    "Icon": "",
+    "Link": "https://hydehermitstudio.com/",
+    "Stall": "H7",
+    "isNSFW": "",
+    "x": 1265, "y": 3370, "w": 32, "h": 58
+  },
+  {
+    "Artist": "floofthefennec",
+    "Icon": "",
+    "Link": "https://bsky.app/profile/floofthefennec.bsky.social",
+    "Stall": "H8",
+    "isNSFW": "",
+    "x": 1265, "y": 3423, "w": 32, "h": 58
+  },
+  {
+    "Artist": "sophiecabra",
+    "Icon": "",
+    "Link": "https://www.sophiecabra.com/",
+    "Stall": "H9",
+    "isNSFW": "",
+    "x": 1265, "y": 3522, "w": 32, "h": 58
+  },
+  {
+    "Artist": "quackquackhonk",
+    "Icon": "",
+    "Link": "https://www.quackquackhonk.com/",
+    "Stall": "H10",
+    "isNSFW": "",
+    "x": 1265, "y": 3580, "w": 32, "h": 58
+  },
+  {
+    "Artist": "certifiedfurry",
+    "Icon": "g",
+    "Link": "https://www.certifiedfurry.com/",
+    "Stall": "H11-12",
+    "isNSFW": "",
+    "x": 1267, "y": 3667, "w": 112, "h": 32
+  },
+  {
+    "Artist": "crizltronshop",
+    "Icon": "",
+    "Link": "https://crizltronshop.com/",
+    "Stall": "H13",
+    "isNSFW": "",
+    "x": 1350, "y": 3577, "w": 32, "h": 58
+  },
+  {
+    "Artist": "attacracc",
+    "Icon": "",
+    "Link": "https://www.instagram.com/attacracc/",
+    "Stall": "H14",
+    "isNSFW": "",
+    "x": 1350, "y": 3522, "w": 32, "h": 58
+  },
+  {
+    "Artist": "runningriot4798",
+    "Icon": "",
+    "Link": "https://linktr.ee/runningriot4798",
+    "Stall": "H15",
+    "isNSFW": "",
+    "x": 1350, "y": 3422, "w": 32, "h": 58
+  },
+  {
+    "Artist": "quailteaillustration",
+    "Icon": "",
+    "Link": "https://quailteaillustration.squarespace.com/",
+    "Stall": "H16",
+    "isNSFW": "",
+    "x": 1350, "y": 3373, "w": 32, "h": 58
+  },
+  {
+    "Artist": "highcoyoteleather",
+    "Icon": "https://highcoyoteleather.com/cdn/shop/files/Logo-Color-1.png?v=1738553266&width=270",
+    "Link": "https://highcoyoteleather.com/",
+    "Stall": "H17",
+    "isNSFW": "",
+    "x": 1350, "y": 3317, "w": 32, "h": 58
+  },
+  {
+    "Artist": "MabosDen",
+    "Icon": "",
+    "Link": "https://www.etsy.com/shop/MabosDen",
+    "Stall": "H19",
+    "isNSFW": "",
+    "x": 1350, "y": 3162, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Anubis Studios",
+    "Icon": "",
+    "Link": "https://www.anubis.studio/",
+    "Stall": "H20",
+    "isNSFW": "",
+    "x": 1350, "y": 3065, "w": 32, "h": 58
+  },
+  {
+    "Artist": "robotdragon",
+    "Icon": "",
+    "Link": "https://robotdragon.studio/",
+    "Stall": "H21",
+    "isNSFW": "",
+    "x": 1350, "y": 3010, "w": 32, "h": 58
+  },
+  {
+    "Artist": "coffeeclaws",
+    "Icon": "",
+    "Link": "https://coffeeclaws.myportfolio.com/work",
+    "Stall": "H22",
+    "isNSFW": "",
+    "x": 1350, "y": 2957, "w": 32, "h": 58
+  },
+  {
+    "Artist": "grimstylesart",
+    "Icon": "",
+    "Link": "https://www.grimstylesart.com/",
+    "Stall": "H23",
+    "isNSFW": "",
+    "x": 1320, "y": 2894, "w": 58, "h": 32
+  },
+  {
+    "Artist": "daemonkitsune",
+    "Icon": "https://starsalts.com/cdn/shop/files/Logo_150x.png?v=1759791647",
+    "Link": "https://starsalts.com/",
+    "Stall": "H24",
+    "isNSFW": "",
+    "x": 1267, "y": 2894, "w": 58, "h": 32
+  },
+
+
+
+
+  {
+    "Artist": "craftycovenco",
+    "Icon": "",
+    "Link": "https://craftycovenco.carrd.co/",
+    "Stall": "G1",
+    "isNSFW": "",
+    "x": 1560, "y": 2957, "w": 32, "h": 58
+  },
+  {
+    "Artist": "ghosty5am",
+    "Icon": "",
+    "Link": "https://ghosty5am.carrd.co/",
+    "Stall": "G2",
+    "isNSFW": "",
+    "x": 1560, "y": 3008, "w": 32, "h": 58
+  },
+  {
+    "Artist": "crittercove",
+    "Icon": "https://crittercove.ca/cdn/shop/files/logo-v9.png?v=1733537523&width=100",
+    "Link": "https://crittercove.ca/",
+    "Stall": "G3",
+    "isNSFW": "",
+    "x": 1560, "y": 3062, "w": 32, "h": 58
+  },
+  {
+    "Artist": "knit1roll20",
+    "Icon": "https://knit1roll20.com/cdn/shop/files/Epic_Knits_Logo_Teal_250x.png?v=1613775348",
+    "Link": "https://knit1roll20.com/",
+    "Stall": "G4-5",
+    "isNSFW": "",
+    "x": 1560, "y": 3164, "w": 32, "h": 112
+  },
+  {
+    "Artist": "hellocutecumber",
+    "Icon": "",
+    "Link": "https://hellocutecumber.wixsite.com/hellocutecumber",
+    "Stall": "G6-8",
+    "isNSFW": "",
+    "x": 1560, "y": 3317, "w": 32, "h": 170
+  },
+  {
+    "Artist": "mangopopart",
+    "Icon": "https://mangopopart.com/wp-content/themes/custom-mango/images/mangopopart.png",
+    "Link": "https://mangopopart.com/",
+    "Stall": "G9-10",
+    "isNSFW": "",
+    "x": 1560, "y": 3522, "w": 32, "h": 112
+  },
+  {
+    "Artist": "lizbiecafe",
+    "Icon": "",
+    "Link": "https://lizbiecafe.com/en-es",
+    "Stall": "G11-12",
+    "isNSFW": "",
+    "x": 1562, "y": 3667, "w": 112, "h": 32
+  },
+  {
+    "Artist": "beastsoul",
+    "Icon": "",
+    "Link": "https://beastsoul.carrd.co/",
+    "Stall": "G13",
+    "isNSFW": "",
+    "x": 1645, "y": 3580, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Malmseyy",
+    "Icon": "",
+    "Link": "https://drive.google.com/drive/folders/1iPgS08nXjWtfZ6GASVb5AWjjedOhMtAQ",
+    "Stall": "G14",
+    "isNSFW": "",
+    "x": 1645, "y": 3522, "w": 32, "h": 58
+  },
+  {
+    "Artist": "spiritpandacostumes",
+    "Icon": "",
+    "Link": "https://www.spiritpandacostumes.com/",
+    "Stall": "G15",
+    "isNSFW": "",
+    "x": 1645, "y": 3422, "w": 32, "h": 58
+  },
+  {
+    "Artist": "rainbowliondesigns",
+    "Icon": "",
+    "Link": "https://www.etsy.com/shop/rainbowliondesigns",
+    "Stall": "G16-17",
+    "isNSFW": "",
+    "x": 1645, "y": 3317, "w": 32, "h": 112
+  },
+  {
+    "Artist": "vixenbrushstudios",
+    "Icon": "",
+    "Link": "https://www.vixenbrushstudios.com/",
+    "Stall": "G18-19",
+    "isNSFW": "",
+    "x": 1645, "y": 3162, "w": 32, "h": 112
+  },
+  {
+    "Artist": "riotkaiju",
+    "Icon": "",
+    "Link": "https://riotkaiju.wixsite.com/kaijuriot/original",
+    "Stall": "G20",
+    "isNSFW": "",
+    "x": 1645, "y": 3065, "w": 32, "h": 58
+  },
+  {
+    "Artist": "sharkkstudio",
+    "Icon": "",
+    "Link": "https://www.sharkkstudio.com/gallery",
+    "Stall": "G21",
+    "isNSFW": "",
+    "x": 1645, "y": 3007, "w": 32, "h": 58
+  },
+  {
+    "Artist": "Thrivgoldendruideordie",
+    "Icon": "",
+    "Link": "https://goldendruid.com/",
+    "Stall": "G22",
+    "isNSFW": "",
+    "x": 1645, "y": 2957, "w": 32, "h": 58
+  },
+  {
+    "Artist": "lindseyburcar",
+    "Icon": "",
+    "Link": "https://www.lindseyburcar.com/",
+    "Stall": "G23-24",
+    "isNSFW": "",
+    "x": 1562, "y": 2894, "w": 112, "h": 32
+  },
+
+
+
+  {
+    "Artist": "weaselgear",
+    "Icon": "https://static.wixstatic.com/media/07f132_4f8b521a149e4e53ae631afa250bd1d1~mv2.png/v1/crop/x_87,y_0,w_850,h_1024/fill/w_337,h_406,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Bait%20and%20Cackle%20Front%20Web.png",
+    "Link": "https://www.weaselgear.com/",
+    "Stall": "F1-3",
+    "isNSFW": "",
+    "x": 1855, "y": 2957, "w": 32, "h": 170
+  },
+  {
+    "Artist": "raizap",
+    "Icon": "",
+    "Link": "https://www.raizap.com/",
+    "Stall": "F4-5",
+    "isNSFW": "",
+    "x": 1855, "y": 3164, "w": 32, "h": 112
+  },
+  {
+    "Artist": "aetusart",
+    "Icon": "",
+    "Link": "https://aetusart.com/",
+    "Stall": "F7-8",
+    "isNSFW": "",
+    "x": 1855, "y": 3375, "w": 32, "h": 112
+  },
+  {
+    "Artist": "tulpaworks",
+    "Icon": "",
+    "Link": "https://tulpaworks.carrd.co/",
+    "Stall": "F9",
+    "isNSFW": "",
+    "x": 1855, "y": 3522, "w": 32, "h": 58
+  },
+  {
+    "Artist": "tailendsstudios",
+    "Icon": "",
+    "Link": "https://tailendsstudios.com/",
+    "Stall": "F10",
+    "isNSFW": "+18",
+    "x": 1855, "y": 3580, "w": 32, "h": 58
+  },
+  {
+    "Artist": "tailendsstudios",
+    "Icon": "",
+    "Link": "https://tailendsstudios.com/",
+    "Stall": "F11-12",
+    "isNSFW": "+18",
+    "x": 1857, "y": 3667, "w": 112, "h": 32
+  },
+  {
+    "Artist": "tailendsstudios",
+    "Icon": "",
+    "Link": "https://tailendsstudios.com/",
+    "Stall": "F13",
+    "isNSFW": "+18",
+    "x": 1940, "y": 3577, "w": 32, "h": 58
+  },
+  {
+    "Artist": "aisuart",
+    "Icon": "",
+    "Link": "https://www.aisuart.com/merch",
+    "Stall": "F14",
+    "isNSFW": "",
+    "x": 1940, "y": 3520, "w": 32, "h": 58
+  },
+  {
+    "Artist": "mangoislandcreations",
+    "Icon": "",
+    "Link": "https://www.mangoislandcreations.com/",
+    "Stall": "F15",
+    "isNSFW": "",
+    "x": 1940, "y": 3422, "w": 32, "h": 58
+  },
+  {
+    "Artist": "clubscragster",
+    "Icon": "",
+    "Link": "https://clubscragster.com/",
+    "Stall": "F16",
+    "isNSFW": "",
+    "x": 1940, "y": 3370, "w": 32, "h": 58
+  },
+  {
+    "Artist": "gaybreakfaststudio",
+    "Icon": "",
+    "Link": "https://gaybreakfaststudio.crevado.com/",
+    "Stall": "F17",
+    "isNSFW": "",
+    "x": 1940, "y": 3317, "w": 32, "h": 58
+  },
+  {
+    "Artist": "christad",
+    "Icon": "",
+    "Link": "https://christad.com/",
+    "Stall": "F18",
+    "isNSFW": "",
+    "x": 1940, "y": 3217, "w": 32, "h": 58
+  },
+  {
+    "Artist": "peachymothshop",
+    "Icon": "",
+    "Link": "https://peachymothshop.com/",
+    "Stall": "F19",
+    "isNSFW": "",
+    "x": 1940, "y": 3162, "w": 32, "h": 58
+  },
+  {
+    "Artist": "wooperworks",
+    "Icon": "",
+    "Link": "https://sites.google.com/view/wooperworks-art-examples/home",
+    "Stall": "F20",
+    "isNSFW": "",
+    "x": 1940, "y": 3065, "w": 32, "h": 58
+  },
+  {
+    "Artist": "kikidoodle",
+    "Icon": "",
+    "Link": "https://kikidoodle.com/",
+    "Stall": "F21-22",
+    "isNSFW": "",
+    "x": 1940, "y": 2957, "w": 32, "h": 112
+  },
+  {
+    "Artist": "Sew it all",
+    "Icon": "",
+    "Link": "https://www.deviantart.com/sew-it-all",
+    "Stall": "F23-24",
+    "isNSFW": "",
+    "x": 1857, "y": 2894, "w": 112, "h": 32
+  },
+
+{
+  "Artist": "dbruin",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/user/dbruin",
+  "Stall": "O1",
+  "isNSFW": "",
+  "x": 568, "y": 4029, "w": 32, "h": 58
+},
+{
+  "Artist": "valentineriot",
+  "Icon": "",
+  "Link": "https://valentineriot.carrd.co/",
+  "Stall": "O2",
+  "isNSFW": "",
+  "x": 568, "y": 4080, "w": 32, "h": 58
+},
+{
+  "Artist": "wolfdesigner",
+  "Icon": "",
+  "Link": "https://www.wolfdesigner.market/",
+  "Stall": "O3",
+  "isNSFW": "",
+  "x": 568, "y": 4134, "w": 32, "h": 58
+},
+{
+  "Artist": "artseaanimal",
+  "Icon": "https://static.wixstatic.com/media/c66461_9104f4c6fad04ccc96d272a6b00305bb~mv2.png/v1/crop/x_0,y_15,w_1632,h_1602/fill/w_55,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20WITH%20NO%20TEXT%20.png",
+  "Link": "https://www.artseaanimal.com/",
+  "Stall": "O4-5",
+  "isNSFW": "",
+  "x": 568, "y": 4236, "w": 32, "h": 112
+},
+{
+  "Artist": "softpauxs",
+  "Icon": "",
+  "Link": "https://www.softpauxs.com/",
+  "Stall": "O6",
+  "isNSFW": "",
+  "x": 568, "y": 4389, "w": 32, "h": 58
+},
+{
+  "Artist": "softpauxs",
+  "Icon": "",
+  "Link": "https://www.softpauxs.com/",
+  "Stall": "O7",
+  "isNSFW": "",
+  "x": 568, "y": 4440, "w": 32, "h": 58
+},
+{
+  "Artist": "korybing",
+  "Icon": "",
+  "Link": "https://korybing.com/",
+  "Stall": "O8",
+  "isNSFW": "",
+  "x": 568, "y": 4495, "w": 32, "h": 58
+},
+{
+  "Artist": "cheercreativity",
+  "Icon": "",
+  "Link": "https://cheercreativity.wixsite.com/cheercreativity",
+  "Stall": "O9",
+  "isNSFW": "",
+  "x": 568, "y": 4594, "w": 32, "h": 58
+},
+{
+  "Artist": "floridcorvid",
+  "Icon": "",
+  "Link": "https://www.floridcorvid.com/",
+  "Stall": "O10",
+  "isNSFW": "+18",
+  "x": 568, "y": 4652, "w": 32, "h": 58
+},
+{
+  "Artist": "inkmavenart",
+  "Icon": "",
+  "Link": "https://www.inkmavenart.com/",
+  "Stall": "O11-12",
+  "isNSFW": "",
+  "x": 570, "y": 4739, "w": 112, "h": 32
+},
+{
+  "Artist": "cosmellcosplay",
+  "Icon": "https://static.wixstatic.com/media/782e8f_e31204f95adb4948b528886c8b554a2d~mv2.png/v1/fill/w_69,h_69,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%202024.png",
+  "Link": "https://www.cosmellcosplay.com/",
+  "Stall": "O13",
+  "isNSFW": "",
+  "x": 653, "y": 4650, "w": 32, "h": 58
+},
+{
+  "Artist": "XOLOCO",
+  "Icon": "",
+  "Link": "https://photos.google.com/share/AF1QipN5aL0fdYqS-lhsVPSrHiF5a5OcqOZmjKqnWvnP3zn8w1I1XSPjD_TX4i66PWs0PA?key=WHIzd3NTVVI4Rnp6aTRUc3A1eExGU3NjWFFNSWN3",
+  "Stall": "O14",
+  "isNSFW": "",
+  "x": 653, "y": 4594, "w": 32, "h": 58
+},
+{
+  "Artist": "fenrispublishing",
+  "Icon": "",
+  "Link": "https://www.fenrispublishing.com/order.php",
+  "Stall": "O15-17",
+  "isNSFW": "",
+  "x": 653, "y": 4390, "w": 32, "h": 170
+},
+{
+  "Artist": "kadath",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/user/kadath",
+  "Stall": "O18",
+  "isNSFW": "",
+  "x": 653, "y": 4289, "w": 32, "h": 58
+},
+{
+  "Artist": "azelianarts",
+  "Icon": "",
+  "Link": "https://azelianarts.com/",
+  "Stall": "O19",
+  "isNSFW": "",
+  "x": 653, "y": 4234, "w": 32, "h": 58
+},
+{
+  "Artist": "madebynao",
+  "Icon": "",
+  "Link": "https://madebynaoportfolio.carrd.co/",
+  "Stall": "O20-21",
+  "isNSFW": "",
+  "x": 653, "y": 4080, "w": 32, "h": 112
+},
+{
+  "Artist": "mcpippypants",
+  "Icon": "https://mcpippypants.carrd.co/assets/images/image01.png?v=5e7b0aff",
+  "Link": "https://mcpippypants.carrd.co/",
+  "Stall": "O22",
+  "isNSFW": "",
+  "x": 653, "y": 4029, "w": 32, "h": 58
+},
+{
+  "Artist": "berrymeat",
+  "Icon": "",
+  "Link": "https://berrymeat.com/",
+  "Stall": "O23-24",
+  "isNSFW": "",
+  "x": 570, "y": 3966, "w": 112, "h": 32
+},
+
+
+
+
+{
+  "Artist": "thedelversguide",
+  "Icon": "https://thedelversguide.com/wp-content/uploads/2023/11/Gold_Brushed_Logo-300x300.webp",
+  "Link": "https://thedelversguide.com/",
+  "Stall": "N1",
+  "isNSFW": "",
+  "x": 950, "y": 4029, "w": 32, "h": 58
+},
+{
+  "Artist": "crazdude",
+  "Icon": "",
+  "Link": "https://crazdude.com/shop/",
+  "Stall": "N2-3",
+  "isNSFW": "",
+  "x": 950, "y": 4080, "w": 32, "h": 112
+},
+
+{
+  "Artist": "bleucan",
+  "Icon": "",
+  "Link": "https://www.bleucan.fish/",
+  "Stall": "N4-5",
+  "isNSFW": "",
+  "x": 950, "y": 4236, "w": 32, "h": 112
+},
+{
+  "Artist": "emmbunn",
+  "Icon": "",
+  "Link": "https://emmbunn.bigcartel.com/",
+  "Stall": "N6",
+  "isNSFW": "",
+  "x": 950, "y": 4389, "w": 32, "h": 58
+},
+{
+  "Artist": "campmustelid",
+  "Icon": "",
+  "Link": "https://www.campmustelid.com/",
+  "Stall": "N7-8",
+  "isNSFW": "",
+  "x": 950, "y": 4440, "w": 32, "h": 112
+},
+{
+  "Artist": "trashmutt",
+  "Icon": "",
+  "Link": "https://trashmutt.com/",
+  "Stall": "N9",
+  "isNSFW": "",
+  "x": 950, "y": 4594, "w": 32, "h": 58
+},
+{
+  "Artist": "blindcoyote",
+  "Icon": "",
+  "Link": "https://www.blindcoyote.com/",
+  "Stall": "N10",
+  "isNSFW": "+18",
+  "x": 950, "y": 4652, "w": 32, "h": 58
+},
+{
+  "Artist": "blindcoyote",
+  "Icon": "",
+  "Link": "https://www.blindcoyote.com/",
+  "Stall": "N11-12",
+  "isNSFW": "",
+  "x": 952, "y": 4739, "w": 112, "h": 32
+},
+{
+  "Artist": "blindcoyote",
+  "Icon": "",
+  "Link": "https://www.blindcoyote.com/",
+  "Stall": "N13",
+  "isNSFW": "",
+  "x": 1035, "y": 4645, "w": 32, "h": 58
+},
+{
+  "Artist": "kaijukafe",
+  "Icon": "",
+  "Link": "https://kaijukafe.carrd.co/",
+  "Stall": "N14",
+  "isNSFW": "+18",
+  "x": 1035, "y": 4594, "w": 32, "h": 58
+},
+{
+  "Artist": "sandyschreiber",
+  "Icon": "",
+  "Link": "http://www.sandyschreiber.com/",
+  "Stall": "N15",
+  "isNSFW": "",
+  "x": 1035, "y": 4495, "w": 32, "h": 58
+},
+{
+  "Artist": "naiadstudios",
+  "Icon": "",
+  "Link": "https://naiadstudios.com/",
+  "Stall": "N16",
+  "isNSFW": "",
+  "x": 1035, "y": 4442, "w": 32, "h": 58
+},
+{
+  "Artist": "hbruton",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/user/hbruton",
+  "Stall": "N17",
+  "isNSFW": "",
+  "x": 1035, "y": 4389, "w": 32, "h": 58
+},
+{
+  "Artist": "atrueblueartist",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/gallery/atrueblueartist/",
+  "Stall": "N18",
+  "isNSFW": "",
+  "x": 1035, "y": 4289, "w": 32, "h": 58
+},
+{
+  "Artist": "leafhoof",
+  "Icon": "https://a.furaffinity.net/1614176404/joshiah.gif",
+  "Link": "https://leafhoof.bigcartel.com/",
+  "Stall": "N19",
+  "isNSFW": "+19",
+  "x": 1035, "y": 4234, "w": 32, "h": 58
+},
+{
+  "Artist": "superiordice",
+  "Icon": "",
+  "Link": "https://www.superiordice.com/",
+  "Stall": "N20-21",
+  "isNSFW": "",
+  "x": 1035, "y": 4085, "w": 32, "h": 112
+},
+{
+  "Artist": "thedelversguide",
+  "Icon": "https://thedelversguide.com/wp-content/uploads/2023/11/Gold_Brushed_Logo-300x300.webp",
+  "Link": "https://thedelversguide.com/",
+  "Stall": "N22",
+  "isNSFW": "",
+  "x": 1035, "y": 4030, "w": 32, "h": 58
+},
+{
+  "Artist": "thedelversguide",
+  "Icon": "https://thedelversguide.com/wp-content/uploads/2023/11/Gold_Brushed_Logo-300x300.webp",
+  "Link": "https://thedelversguide.com/",
+  "Stall": "N23-24",
+  "isNSFW": "",
+  "x": 952, "y": 3966, "w": 112, "h": 32
+},
+
+
+
+{
+  "Artist": "spiltgrapesoda",
+  "Icon": "https://www.spiltgrapesoda.com/assets/images/img-2608.webp",
+  "Link": "https://www.spiltgrapesoda.com/",
+  "Stall": "M1-3",
+  "isNSFW": "",
+  "x": 1332, "y": 4029, "w": 32, "h": 170
+},
+{
+  "Artist": "sixgills",
+  "Icon": "",
+  "Link": "https://www.instagram.com/sixgills/",
+  "Stall": "M4",
+  "isNSFW": "",
+  "x": 1332, "y": 4236, "w": 32, "h": 58
+},
+{
+  "Artist": "canis-infernalis",
+  "Icon": "",
+  "Link": "https://www.canis-infernalis.com/",
+  "Stall": "M5",
+  "isNSFW": "",
+  "x": 1332, "y": 4290, "w": 32, "h": 58
+},
+{
+  "Artist": "skyprocostumes",
+  "Icon": "",
+  "Link": "https://www.skyprocostumes.com/",
+  "Stall": "M6",
+  "isNSFW": "",
+  "x": 1332, "y": 4389, "w": 32, "h": 58
+},
+{
+  "Artist": "monstercatcreations",
+  "Icon": "https://static.wixstatic.com/media/66ba78_8017db7e2ca7419d8a8d01cb4afe40a7~mv2.png/v1/fill/w_600,h_450,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/blk%20logo%20no%20bg%20png.png",
+  "Link": "https://www.monstercatcreations.net/",
+  "Stall": "M7-8",
+  "isNSFW": "",
+  "x": 1332, "y": 4445, "w": 32, "h": 112
+},
+{
+  "Artist": "cloverpuff",
+  "Icon": "https://cloverpuff.com/cdn/shop/files/CloverPuff_Logo.png?v=1696483124&width=100",
+  "Link": "https://cloverpuff.com/",
+  "Stall": "M10",
+  "isNSFW": "",
+  "x": 1332, "y": 4652, "w": 32, "h": 58
+},
+{
+  "Artist": "cloverpuff",
+  "Icon": "https://cloverpuff.com/cdn/shop/files/CloverPuff_Logo.png?v=1696483124&width=100",
+  "Link": "https://cloverpuff.com/",
+  "Stall": "M11-12",
+  "isNSFW": "",
+  "x": 1334, "y": 4739, "w": 112, "h": 32
+},
+{
+  "Artist": "cloverpuff",
+  "Icon": "https://cloverpuff.com/cdn/shop/files/CloverPuff_Logo.png?v=1696483124&width=100",
+  "Link": "https://cloverpuff.com/",
+  "Stall": "M13",
+  "isNSFW": "",
+  "x": 1417, "y": 4650, "w": 32, "h": 58
+},
+{
+  "Artist": "eiudragon",
+  "Icon": "",
+  "Link": "https://eiudragon.carrd.co/",
+  "Stall": "M14",
+  "isNSFW": "",
+  "x": 1417, "y": 4594, "w": 32, "h": 58
+},
+{
+  "Artist": "dreamvisioncreations",
+  "Icon": "https://dreamvisioncreations.com/cdn/shop/files/Color-3_200x.png?v=1672873059",
+  "Link": "hhttps://dreamvisioncreations.com/?shpxid=a1f4268f-7e71-44a6-bf48-a5e767a607df",
+  "Stall": "M15-17",
+  "isNSFW": "",
+  "x": 1417, "y": 4390, "w": 32, "h": 170
+},
+{
+  "Artist": "pawfootproductions",
+  "Icon": "",
+  "Link": "https://www.instagram.com/pawfootproductions?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+  "Stall": "M18-19",
+  "isNSFW": "",
+  "x": 1417, "y": 4238, "w": 32, "h": 112
+},
+{
+  "Artist": "floralfrolic",
+  "Icon": "",
+  "Link": "https://floralfrolic.com/",
+  "Stall": "M20",
+  "isNSFW": "",
+  "x": 1417, "y": 4137, "w": 32, "h": 58
+},
+{
+  "Artist": "sanityxrationelle",
+  "Icon": "",
+  "Link": "https://www.sanityxrationelle.ca/",
+  "Stall": "M21-22",
+  "isNSFW": "",
+  "x": 1417, "y": 4029, "w": 32, "h": 112
+},
+{
+  "Artist": "craftycrittercabin",
+  "Icon": "",
+  "Link": "https://www.craftycrittercabin.com/",
+  "Stall": "M23-24",
+  "isNSFW": "",
+  "x": 1334, "y": 3966, "w": 112, "h": 32
+},
+
+
+
+{
+  "Artist": "madshyarts",
+  "Icon": "",
+  "Link": "https://www.madshyarts.com/",
+  "Stall": "L1",
+  "isNSFW": "",
+  "x": 1714, "y": 4029, "w": 32, "h": 58
+},
+{
+  "Artist": "jacobwalkerart",
+  "Icon": "",
+  "Link": "https://www.jacobwalkerart.com/",
+  "Stall": "L2-3",
+  "isNSFW": "",
+  "x": 1714, "y": 4080, "w": 32, "h": 112
+},
+{
+  "Artist": "treebarkcreations",
+  "Icon": "",
+  "Link": "https://www.treebarkcreations.com/",
+  "Stall": "L4",
+  "isNSFW": "",
+  "x": 1714, "y": 4236, "w": 32, "h": 58
+},
+{
+  "Artist": "fullmoonspecial",
+  "Icon": "https://static.wixstatic.com/media/72e16c_066dbc19ff104250a524230eef664062~mv2.png/v1/fill/w_287,h_288,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/offwhite.png",
+  "Link": "https://www.fullmoonspecial.com/",
+  "Stall": "L5",
+  "isNSFW": "",
+  "x": 1714, "y": 4290, "w": 32, "h": 58
+},
+{
+  "Artist": "stuffedpandastudios",
+  "Icon": "https://static.wixstatic.com/media/fe45f6_5f7816eefc214ce3aedf6f9f957e665b~mv2.png/v1/fill/w_405,h_405,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Color-1.png",
+  "Link": "https://www.stuffedpandastudios.com/",
+  "Stall": "L6-7",
+  "isNSFW": "",
+  "x": 1714, "y": 4389, "w": 32, "h": 112
+},
+{
+  "Artist": "coeyandshy",
+  "Icon": "",
+  "Link": "https://coeyandshy.weebly.com/",
+  "Stall": "L8",
+  "isNSFW": "",
+  "x": 1714, "y": 4500, "w": 32, "h": 58
+},
+{
+  "Artist": "supykun",
+  "Icon": "",
+  "Link": "https://supykun.com/",
+  "Stall": "L9",
+  "isNSFW": "",
+  "x": 1714, "y": 4594, "w": 32, "h": 58
+},
+{
+  "Artist": "husious",
+  "Icon": "https://images.squarespace-cdn.com/content/v1/64921144b2031d6c96e687f1/26045da0-1fae-4af5-a761-6ee8175cb1ca/husiouslogo.png?format=1500w",
+  "Link": "https://www.husious.com/",
+  "Stall": "L10",
+  "isNSFW": "",
+  "x": 1714, "y": 4652, "w": 32, "h": 58
+},
+{
+  "Artist": "redmoonworkshop",
+  "Icon": "https://images.squarespace-cdn.com/content/v1/660f0bdc4abcb32de4921515/d2add0a9-a467-458d-ad5d-4f1e4b807e1c/blub2.jpg?format=1500w",
+  "Link": "https://www.redmoonworkshop.org/",
+  "Stall": "L11-12",
+  "isNSFW": "",
+  "x": 1716, "y": 4739, "w": 112, "h": 32
+},
+{
+  "Artist": "Elvenhound",
+  "Icon": "https://i.etsystatic.com/11839596/r/isla/215fd8/76046931/isla_100x100.76046931_3cnvt2vp.jpg",
+  "Link": "https://www.etsy.com/shop/Elvenhound",
+  "Stall": "L13-14",
+  "isNSFW": "",
+  "x": 1799, "y": 4594, "w": 32, "h": 112
+},
+{
+  "Artist": "wahwash",
+  "Icon": "https://images.squarespace-cdn.com/content/v1/646c19ab135dd855c8022b8a/c8f49677-e303-4af6-843b-8b74b18bf25f/Logo-With-Text-Web.png?format=500w",
+  "Link": "https://wahwash.com/",
+  "Stall": "L15",
+  "isNSFW": "",
+  "x": 1799, "y": 4495, "w": 32, "h": 58
+},
+{
+  "Artist": "starsandponies",
+  "Icon": "",
+  "Link": "https://starsandponies.wixsite.com/mysite/portfolio",
+  "Stall": "L16",
+  "isNSFW": "",
+  "x": 1799, "y": 4442, "w": 32, "h": 58
+},
+{
+  "Artist": "otterchaos",
+  "Icon": "",
+  "Link": "https://otterchaos.art/",
+  "Stall": "L17",
+  "isNSFW": "",
+  "x": 1799, "y": 4389, "w": 32, "h": 58
+},
+{
+  "Artist": "toragami",
+  "Icon": "https://www.toragami.co/cdn/shop/files/Toragami-logo-White-02.png?v=1723013860&width=200",
+  "Link": "https://www.toragami.co/",
+  "Stall": "L18",
+  "isNSFW": "",
+  "x": 1799, "y": 4289, "w": 32, "h": 58
+},
+{
+  "Artist": "caramelcocooncreations",
+  "Icon": "",
+  "Link": "https://caramelcocooncreations.com/",
+  "Stall": "L19",
+  "isNSFW": "",
+  "x": 1799, "y": 4234, "w": 32, "h": 58
+},
+{
+  "Artist": "pawpunchproductions",
+  "Icon": "",
+  "Link": "https://www.pawpunchproductions.com/",
+  "Stall": "L20",
+  "isNSFW": "",
+  "x": 1799, "y": 4137, "w": 32, "h": 58
+},
+{
+  "Artist": "Rinnekanzaki",
+  "Icon": "",
+  "Link": "https://linktr.ee/Rinnekanzaki",
+  "Stall": "L21",
+  "isNSFW": "",
+  "x": 1799, "y": 4080, "w": 32, "h": 58
+},
+{
+  "Artist": "sanguinegames",
+  "Icon": "",
+  "Link": "https://www.google.com/url?q=https://www.sanguinegames.com&sa=D&source=editors&ust=1764184439388761&usg=AOvVaw03Fg-l828W5vXaFx4LNih9",
+  "Stall": "L22",
+  "isNSFW": "",
+  "x": 1799, "y": 4029, "w": 32, "h": 58
+},
+{
+  "Artist": "plantpandastudios",
+  "Icon": "",
+  "Link": "https://plantpandastudios.bigcartel.com/",
+  "Stall": "L23-24",
+  "isNSFW": "",
+  "x": 1716, "y": 3966, "w": 112, "h": 32
+},
+
+
+
+
+{
+  "Artist": "coyotictrouble",
+  "Icon": "",
+  "Link": "https://coyotictrouble.com/",
+  "Stall": "K1",
+  "isNSFW": "",
+  "x": 2100, "y": 4029, "w": 32, "h": 58
+},
+{
+  "Artist": "Oh my Growl!",
+  "Icon": "",
+  "Link": "https://drive.google.com/file/d/1A7y-z4GEasMD2PtDUz7eykvLDDXbt1AA/view",
+  "Stall": "K2",
+  "isNSFW": "",
+  "x": 2100, "y": 4080, "w": 32, "h": 58
+},
+{
+  "Artist": "poofylion",
+  "Icon": "",
+  "Link": "https://www.poofylion.com/",
+  "Stall": "K4-5",
+  "isNSFW": "",
+  "x": 2100, "y": 4236, "w": 32, "h": 112
+},
+{
+  "Artist": "nighteyes-dayspring",
+  "Icon": "",
+  "Link": "https://nighteyes-dayspring.com/",
+  "Stall": "K6",
+  "isNSFW": "",
+  "x": 2100, "y": 4389, "w": 32, "h": 58
+},
+{
+  "Artist": "rysingson",
+  "Icon": "https://9f2c0f7e67a51ced68af.cdn6.editmysite.com/uploads/b/fc0f0400-6127-11ea-a3a6-f5b824c6299a/295996fee1fd209a99b5419bb2fa349e.jpeg?width=2400&optimize=medium",
+  "Link": "https://rysingson-accessories.square.site/",
+  "Stall": "K7-8",
+  "isNSFW": "",
+  "x": 2100, "y": 4440, "w": 32, "h": 112
+},
+{
+  "Artist": "oakleyscreations",
+  "Icon": "https://images.squarespace-cdn.com/content/v1/60bdb485c9bca3296682a8e6/0a4868c2-0b95-4e9c-aa33-a156ba1fbb6a/Untitled-1.png?format=1500w",
+  "Link": "https://www.oakleyscreations.com/",
+  "Stall": "K9",
+  "isNSFW": "",
+  "x": 2100, "y": 4594, "w": 32, "h": 58
+},
+{
+  "Artist": "CuriouslyColored",
+  "Icon": "",
+  "Link": "https://www.etsy.com/shop/CuriouslyColored",
+  "Stall": "K10",
+  "isNSFW": "",
+  "x": 2100, "y": 4652, "w": 32, "h": 58
+},
+{
+  "Artist": "JellyStich Studios",
+  "Icon": "https://pbs.twimg.com/profile_images/1951676751983054848/-WUZ8QuA_400x400.png",
+  "Link": "https://www.facebook.com/sewnsaber#",
+  "Stall": "K11-12",
+  "isNSFW": "",
+  "x": 2102, "y": 4739, "w": 112, "h": 32
+},
+{
+  "Artist": "slyfoxleather",
+  "Icon": "",
+  "Link": "https://www.slyfoxleather.com/",
+  "Stall": "K13-14",
+  "isNSFW": "",
+  "x": 2185, "y": 4594, "w": 32, "h": 112
+},
+{
+  "Artist": "Ashenwhiskers",
+  "Icon": "https://i.etsystatic.com/9406459/r/isla/6e439a/51682201/isla_100x100.51682201_5uolamof.jpg",
+  "Link": "https://www.etsy.com/shop/Ashenwhiskers",
+  "Stall": "K15",
+  "isNSFW": "",
+  "x": 2185, "y": 4495, "w": 32, "h": 58
+},
+{
+  "Artist": "servalsurf",
+  "Icon": "",
+  "Link": "https://servalsurf.carrd.co/",
+  "Stall": "K16-17",
+  "isNSFW": "",
+  "x": 2185, "y": 4389, "w": 32, "h": 112
+},
+{
+  "Artist": "inktigerart",
+  "Icon": "https://images.squarespace-cdn.com/content/v1/571cb31e62cd94c314aba3b6/75c60f87-fadb-4b40-ba18-7278353ed4cc/LogoEyes+copy.png?format=750w",
+  "Link": "https://www.inktigerart.com/",
+  "Stall": "K18",
+  "isNSFW": "",
+  "x": 2185, "y": 4289, "w": 32, "h": 58
+},
+{
+  "Artist": "kacey",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/gallery/kacey/",
+  "Stall": "K19",
+  "isNSFW": "",
+  "x": 2185, "y": 4234, "w": 32, "h": 58
+},
+{
+  "Artist": "rukisart",
+  "Icon": "",
+  "Link": "https://www.rukisart.com/",
+  "Stall": "K20-22",
+  "isNSFW": "",
+  "x": 2185, "y": 4029, "w": 32, "h": 170
+},
+{
+  "Artist": "thermapparel",
+  "Icon": "",
+  "Link": "https://www.thermapparel.com/pages/furry",
+  "Stall": "K23-24",
+  "isNSFW": "",
+  "x": 2102, "y": 3966, "w": 112, "h": 32
+},
+
+
+
+
+{
+  "Artist": "artbycreeps",
+  "Icon": "",
+  "Link": "https://www.artbycreeps.com/",
+  "Stall": "P1",
+  "isNSFW": "",
+  "x": 2440, "y": 5055, "w": 58, "h": 32
+},
+{
+  "Artist": "artkour",
+  "Icon": "",
+  "Link": "https://www.artkour.com/",
+  "Stall": "P2",
+  "isNSFW": "",
+  "x": 2385, "y": 5055, "w": 58, "h": 32
+},
+{
+  "Artist": "crowparadeart",
+  "Icon": "https://crowparadeart.carrd.co/assets/images/image01.png?v=fbb05a8d",
+  "Link": "https://crowparadeart.carrd.co/",
+  "Stall": "P3",
+  "isNSFW": "",
+  "x": 2335, "y": 5055, "w": 58, "h": 32
+},
+
+{
+  "Artist": "muttasaur",
+  "Icon": "",
+  "Link": "https://muttasaur.com/",
+  "Stall": "P4-5",
+  "isNSFW": "",
+  "x": 2280, "y": 5070, "w": 32, "h": 112
+},
+{
+  "Artist": "scopermonstar",
+  "Icon": "",
+  "Link": "https://www.etsy.com/shop/scopermonstar",
+  "Stall": "P9",
+  "isNSFW": "",
+  "x": 2010, "y": 5070, "w": 32, "h": 58
+},
+{
+  "Artist": "pawberry",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/gallery/pawberry/folder/1316153/Portfolio",
+  "Stall": "P10",
+  "isNSFW": "",
+  "x": 2010, "y": 5128, "w": 32, "h": 58
+},
+
+{
+  "Artist": "westscustomcreations",
+  "Icon": "",
+  "Link": "https://www.westscustomcreations.com/",
+  "Stall": "P11-13",
+  "isNSFW": "",
+  "x": 1810, "y": 5065, "w": 170, "h": 32
+},
+
+{
+  "Artist": "meganedogportfolio",
+  "Icon": "",
+  "Link": "https://meganedogportfolio.carrd.co/",
+  "Stall": "P6",
+  "isNSFW": "",
+  "x": 2180, "y": 5190, "w": 58, "h": 32
+},
+{
+  "Artist": "sourcitrussuits",
+  "Icon": "",
+  "Link": "https://www.sourcitrussuits.com/",
+  "Stall": "P7-8",
+  "isNSFW": "",
+  "x": 2070, "y": 5190, "w": 112, "h": 32
+},
+
+{
+  "Artist": "honecksculpture",
+  "Icon": "",
+  "Link": "https://www.honecksculpture.com/",
+  "Stall": "P14-16",
+  "isNSFW": "",
+  "x": 1600, "y": 5065, "w": 170, "h": 32
+},
+
+{
+  "Artist": "furplanet",
+  "Icon": "",
+  "Link": "https://furplanet.com/shop/",
+  "Stall": "P17-20",
+  "isNSFW": "",
+  "x": 1315, "y": 5065, "w": 220, "h": 32
+},
+
+{
+  "Artist": "fursmith",
+  "Icon": "",
+  "Link": "https://fursmith.carrd.co/",
+  "Stall": "P21-24",
+  "isNSFW": "",
+  "x": 1015, "y": 5065, "w": 220, "h": 32
+},
+
+{
+  "Artist": "comfortkingdomconapps",
+  "Icon": "",
+  "Link": "https://comfortkingdomconapps.carrd.co/",
+  "Stall": "S3",
+  "isNSFW": "",
+  "x": 5190, "y": 1400, "w": 90, "h": 90
+},
+{
+  "Artist": "camphowl",
+  "Icon": "https://www.camphowl.com/cdn/shop/files/CampHowlLogo_bb63daef-fa28-41aa-b88c-25dfe141b241_150x.jpg?v=1667622505",
+  "Link": "https://www.camphowl.com/",
+  "Stall": "S4",
+  "isNSFW": "",
+  "x": 5190, "y": 1560, "w": 90, "h": 90
+},
+{
+  "Artist": "lychgate",
+  "Icon": "",
+  "Link": "https://lychgate.carrd.co/",
+  "Stall": "S5",
+  "isNSFW": "",
+  "x": 5190, "y": 1830, "w": 90, "h": 90
+},
+{
+  "Artist": "weightedwildlife",
+  "Icon": "",
+  "Link": "https://www.weightedwildlife.com/collections/dragons",
+  "Stall": "S6",
+  "isNSFW": "",
+  "x": 5190, "y": 1990, "w": 90, "h": 90
+},
+{
+  "Artist": "dasuedragon",
+  "Icon": "",
+  "Link": "https://dasuedragon.com/",
+  "Stall": "S7",
+  "isNSFW": "",
+  "x": 5190, "y": 2110, "w": 90, "h": 90
+},
+{
+  "Artist": "knittinkittenfashion",
+  "Icon": "https://static.wixstatic.com/media/18e363_b964e072253f4053a0d3fec0115058ae~mv2.jpg/v1/fill/w_68,h_67,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot_20220113-231152_Facebook.jpg",
+  "Link": "https://www.knittinkittenfashion.com/",
+  "Stall": "S8",
+  "isNSFW": "",
+  "x": 5190, "y": 2265, "w": 90, "h": 90
+},
+
+{
+  "Artist": "yippyapp",
+  "Icon": "",
+  "Link": "https://yippyapp.co/",
+  "Stall": "S14",
+  "isNSFW": "",
+  "x": 4650, "y": 1400, "w": 90, "h": 90
+},
+{
+  "Artist": "zeroremnants",
+  "Icon": "https://3871f03a243f78b9aaf5.cdn6.editmysite.com/uploads/b/3871f03a243f78b9aaf5096e970e33ee7e7348d88e343ffa36c00888adf3da06/IMG_0969_1663825379.PNG?width=2400&optimize=medium&height=480&fit=cover&dpr=1",
+  "Link": "https://zeroremnants.square.site/",
+  "Stall": "S13",
+  "isNSFW": "",
+  "x": 4650, "y": 1560, "w": 90, "h": 90
+},
+{
+  "Artist": "rattycreations",
+  "Icon": "",
+  "Link": "https://linktr.ee/rattycreations",
+  "Stall": "S12",
+  "isNSFW": "",
+  "x": 4650, "y": 1830, "w": 90, "h": 90
+},
+{
+  "Artist": "puppetmasterfs",
+  "Icon": "",
+  "Link": "https://puppetmasterfs.com/",
+  "Stall": "S11",
+  "isNSFW": "",
+  "x": 4650, "y": 1990, "w": 90, "h": 90
+},
+{
+  "Artist": "lemonbrat",
+  "Icon": "",
+  "Link": "https://lemonbrat.com/",
+  "Stall": "S10",
+  "isNSFW": "",
+  "x": 4650, "y": 2110, "w": 90, "h": 90
+},
+{
+  "Artist": "limeythecheetahconinfo",
+  "Icon": "",
+  "Link": "https://limeythecheetahconinfo.carrd.co/",
+  "Stall": "S9",
+  "isNSFW": "",
+  "x": 4650, "y": 2265, "w": 90, "h": 90
+},
+
+{
+  "Artist": "transformartive",
+  "Icon": "https://static.wixstatic.com/media/2f3134_a707951d4c40448abe33b9a07daca29d~mv2.png/v1/fill/w_305,h_305,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/shifter%20logo%20transformartive%203.png",
+  "Link": "https://www.transformartive.com/furry",
+  "Stall": "S1",
+  "isNSFW": "",
+  "x": 4860, "y": 1270, "w": 90, "h": 90
+},
+{
+  "Artist": "cherryb0x",
+  "Icon": "",
+  "Link": "https://cherryb0x.com/",
+  "Stall": "S2",
+  "isNSFW": "",
+  "x": 5015, "y": 1270, "w": 90, "h": 90
+},
+
+
+
+{
+  "Artist": "lycantasy",
+  "Icon": "",
+  "Link": "https://lycantasy.com/",
+  "Stall": "X1-4",
+  "isNSFW": "+18",
+  "x": 4970, "y": 630, "w": 220, "h": 32
+},
+{
+  "Artist": "14werewolves",
+  "Icon": "",
+  "Link": "https://14werewolves.store/",
+  "Stall": "X5-7",
+  "isNSFW": "+18",
+  "x": 5190, "y": 630, "w": 160, "h": 32
+}
+,
+{
+  "Artist": "streamstoys",
+  "Icon": "https://streamstoys.com/cdn/shop/files/2A17C312-F66D-4A13-B4C3-15A66100B3A1.png?v=1686328129&width=400",
+  "Link": "https://streamstoys.com/",
+  "Stall": "X16-18",
+  "isNSFW": "+18",
+  "x": 4970, "y": 865, "w": 160, "h": 32
+},
+{
+  "Artist": "feelslikeinstinct",
+  "Icon": "https://assets.bigcartel.com/theme_images/143275179/00+-+FLI+Logo+_multi_.png?auto=format&fit=max&h=300&w=1800",
+  "Link": "https://www.feelslikeinstinct.com/",
+  "Stall": "X12",
+  "isNSFW": "+18",
+  "x": 5295, "y": 865, "w": 58, "h": 32
+},
+{
+  "Artist": "deadbomb",
+  "Icon": "https://static.wixstatic.com/media/eb3810_4e68c0e07c914929b6c7675d14f461da~mv2.png/v1/crop/x_4,y_0,w_1496,h_1500/fill/w_319,h_320,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DBA_stickerLogo_SMALL.png",
+  "Link": "https://www.deadbomb.com/",
+  "Stall": "X13-14",
+  "isNSFW": "+18",
+  "x": 5185, "y": 865, "w": 112, "h": 32
+},
+{
+  "Artist": "creaturefeaturetoys",
+  "Icon": "https://dhgf5mcbrms62.cloudfront.net/33727397/header-dpkfnj/Gi3DNdO-200x200.webp",
+  "Link": "https://creaturefeaturetoys.com/",
+  "Stall": "X13-14",
+  "isNSFW": "+18",
+  "x": 5380, "y": 655, "w": 32, "h": 220
+},
+{
+  "Artist": "xenocat",
+  "Icon": "",
+  "Link": "https://shop.xenocat-artifacts.com/",
+  "Stall": "X13-14",
+  "isNSFW": "+18",
+  "x": 4900, "y": 655, "w": 32, "h": 220
+},
+
+
+{
+  "Artist": "floggydoggy",
+  "Icon": "https://static.wixstatic.com/media/782e8f_ebde9e0d8cb34f1ba7c12e53a57f8def~mv2.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Floggy%20Doggy%20logo%202024.png",
+  "Link": "https://www.floggydoggy.com/",
+  "Stall": "W1",
+  "isNSFW": "+18",
+  "x": 5715, "y": 505, "w": 58, "h": 32
+},
+{
+  "Artist": "hollowpup",
+  "Icon": "https://hollowpup.com/wp-content/uploads/2025/03/from-the-desk-of-hollowpup-small-1.png",
+  "Link": "https://hollowpup.com/",
+  "Stall": "W2",
+  "isNSFW": "+18",
+  "x": 5770, "y": 505, "w": 58, "h": 32
+},
+{
+  "Artist": "hyprknetc",
+  "Icon": "",
+  "Link": "https://bsky.app/profile/hyprknetc.bsky.social",
+  "Stall": "W3",
+  "isNSFW": "+18",
+  "x": 5820, "y": 505, "w": 58, "h": 32
+},
+{
+  "Artist": "briarlupine",
+  "Icon": "",
+  "Link": "https://briarlupine.carrd.co/",
+  "Stall": "W4",
+  "isNSFW": "+18",
+  "x": 5875, "y": 505, "w": 58, "h": 32
+},
+{
+  "Artist": "battybutts",
+  "Icon": "https://battybutts.carrd.co/assets/images/image01.jpg?v=c7ee0075",
+  "Link": "https://battybutts.carrd.co/",
+  "Stall": "W5",
+  "isNSFW": "+18",
+  "x": 5933, "y": 505, "w": 58, "h": 32
+},
+{
+  "Artist": "bunniesnb",
+  "Icon": "https://assets.bigcartel.com/theme_images/130879776/IMG_2328.PNG?auto=format&fit=max&h=100&w=300",
+  "Link": "https://bunniesnb.bigcartel.com/",
+  "Stall": "W6",
+  "isNSFW": "+18",
+  "x": 6015, "y": 525, "w": 32, "h": 58
+},
+{
+  "Artist": "jesterlaughie",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/user/jesterlaughie",
+  "Stall": "W7",
+  "isNSFW": "+18",
+  "x": 6015, "y": 580, "w": 32, "h": 58
+},
+{
+  "Artist": "braeburned",
+  "Icon": "https://assets.bigcartel.com/product_images/288351318/BookPic1_1.png?auto=format&fit=max&h=1000&w=1000",
+  "Link": "https://www.braeburned.com/products",
+  "Stall": "W8",
+  "isNSFW": "+18",
+  "x": 6015, "y": 635, "w": 32, "h": 58
+},
+{
+  "Artist": "fluffandstuff",
+  "Icon": "",
+  "Link": "https://fluffandstuff.net/",
+  "Stall": "W9-11",
+  "isNSFW": "+18",
+  "x": 6015, "y": 710, "w": 32, "h": 170
+},
+{
+  "Artist": "shinfox",
+  "Icon": "",
+  "Link": "https://www.furaffinity.net/user/shinfox",
+  "Stall": "W12",
+  "isNSFW": "+18",
+  "x": 5929, "y": 865, "w": 58, "h": 32
+},
+{
+  "Artist": "primrosekennel",
+  "Icon": "",
+  "Link": "https://www.primrosekennel.club",
+  "Stall": "W13-14",
+  "isNSFW": "+18",
+  "x": 5820, "y": 865, "w": 112, "h": 32
+},
+{
+  "Artist": "sdelectatiomorosahinfox",
+  "Icon": "",
+  "Link": "https://delectatiomorosa.com/",
+  "Stall": "W15",
+  "isNSFW": "+18",
+  "x": 5767, "y": 865, "w": 58, "h": 32
+},
+{
+  "Artist": "foxandhound",
+  "Icon": "",
+  "Link": "https://foxandhound.shop/",
+  "Stall": "W16",
+  "isNSFW": "+18",
+  "x": 5710, "y": 865, "w": 58, "h": 32
+},
+{
+  "Artist": "chasingtailmag",
+  "Icon": "",
+  "Link": "https://chasingtailmag.com/store",
+  "Stall": "W17",
+  "isNSFW": "+18",
+  "x": 5670, "y": 825, "w": 32, "h": 58
+},
+{
+  "Artist": "mangoislandcreations",
+  "Icon": "",
+  "Link": "https://www.mangoislandcreations.com/vixenhart",
+  "Stall": "W19",
+  "isNSFW": "+18",
+  "x": 5670, "y": 715, "w": 32, "h": 58
+},
+{
+  "Artist": "hivemindco",
+  "Icon": "",
+  "Link": "https://hivemindco.weebly.com/home.html",
+  "Stall": "W20-21",
+  "isNSFW": "+18",
+  "x": 5670, "y": 580, "w": 32, "h": 112
+},
+{
+  "Artist": "kinghime",
+  "Icon": "",
+  "Link": "https://www.kinghime.com/#softraylo",
+  "Stall": "W22",
+  "isNSFW": "+18",
+  "x": 5670, "y": 525, "w": 32, "h": 58
+},
+
+
+
+{
+  "Artist": "northshorecare",
+  "Icon": "",
+  "Link": "https://www.northshorecare.com/abdl",
+  "Stall": "T1",
+  "isNSFW": "+18",
+  "x": 4670, "y": 1100, "w": 184, "h": 138
+},
+{
+  "Artist": "straytoys",
+  "Icon": "https://straytoys.com/cdn/shop/t/96/assets/logo.png?v=24489916078894218861491100746",
+  "Link": "https://straytoys.com/",
+  "Stall": "T2",
+  "isNSFW": "+18",
+  "x": 4850, "y": 1100, "w": 184, "h": 138
+},
+{
+  "Artist": "fetishzone",
+  "Icon": "",
+  "Link": "https://fetishzone.com/",
+  "Stall": "T3",
+  "isNSFW": "+18",
+  "x": 5030, "y": 1100, "w": 198, "h": 138
+},
+{
+  "Artist": "exotic-erotics",
+  "Icon": "",
+  "Link": "https://www.exotic-erotics.com/store/",
+  "Stall": "T4",
+  "isNSFW": "+18",
+  "x": 5250, "y": 1100, "w": 198, "h": 138
+},
+{
+  "Artist": "sheathsbark",
+  "Icon": "https://static.wixstatic.com/media/f77603_cbe1becdbcd1433ea96b939a769867f0~mv2.jpg/v1/fill/w_630,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f77603_cbe1becdbcd1433ea96b939a769867f0~mv2.jpg",
+  "Link": "https://www.sheathsbark.com/",
+  "Stall": "T5",
+  "isNSFW": "+18",
+  "x": 5640, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "tansydraws",
+  "Icon": "https://tansydraws.carrd.co/assets/images/image01.jpg?v=b17b0eaf",
+  "Link": "https://tansydraws.carrd.co/",
+  "Stall": "T6",
+  "isNSFW": "+18",
+  "x": 5690, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "wintrearts",
+  "Icon": "",
+  "Link": "https://www.wintrearts.com/shop",
+  "Stall": "T7",
+  "isNSFW": "+18",
+  "x": 5750, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "growlngear",
+  "Icon": "https://static.wixstatic.com/media/9470cd_8df98e67645442fda77138f30dab03ed~mv2.jpg/v1/fill/w_417,h_415,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9470cd_8df98e67645442fda77138f30dab03ed~mv2.jpg",
+  "Link": "https://www.growlngear.com/home",
+  "Stall": "T8",
+  "isNSFW": "+18",
+  "x": 5800, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "naughty_by_nature",
+  "Icon": "",
+  "Link": "https://linktr.ee/naughty_by_nature",
+  "Stall": "T9",
+  "isNSFW": "+18",
+  "x": 5860, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "bassenji",
+  "Icon": "",
+  "Link": "https://bassenji.com/",
+  "Stall": "T10",
+  "isNSFW": "+18",
+  "x": 5950, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "beleoci",
+  "Icon": "https://beleoci-cons.carrd.co/assets/images/image04.jpg?v=2f0aa63c",
+  "Link": "https://beleoci-cons.carrd.co/",
+  "Stall": "T11",
+  "isNSFW": "+18",
+  "x": 6005, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "yourlittlespace",
+  "Icon": "https://images.squarespace-cdn.com/content/v1/660c9b0e2464f90da0b8119e/379117f3-59b3-4ba6-9e71-64748062d77a/IMG_6048.jpg?format=1000w",
+  "Link": "https://www.yourlittlespace.com/shop",
+  "Stall": "T12",
+  "isNSFW": "+18",
+  "x": 6060, "y": 1150, "w": 58, "h": 32
+},
+{
+  "Artist": "bedboundbeyond",
+  "Icon": "",
+  "Link": "https://www.bedboundbeyond.com/",
+  "Stall": "T13-14",
+  "isNSFW": "+18",
+  "x": 6115, "y": 1150, "w": 112, "h": 32
+},
+
+
+{
+  "Artist": "dirtysouthleather",
+  "Icon": "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_960,w_760,f_auto,q_auto/2334682/541937_984755.jpeg",
+  "Link": "https://www.dirtysouthleather.com/",
+  "Stall": "V1",
+  "isNSFW": "+18",
+  "x": 4400, "y": 540, "w": 184, "h": 138
+},
+{
+  "Artist": "Bad Dragon",
+  "Icon": "https://upload.wikimedia.org/wikipedia/en/3/3d/Bad_Dragon_logo.png",
+  "Link": "https://bad-dragon.com/",
+  "Stall": "V2",
+  "isNSFW": "+18",
+  "x": 4400, "y": 180, "w": 724, "h": 328
+},
+{
+  "Artist": "Bark Side",
+  "Icon": "https://15f12427c05be57d4a41.cdn6.editmysite.com/uploads/b/15f12427c05be57d4a41a812d2423193887d578da2f5cd4c36414d548664212b/barkley_lockup_horizontal_reversed_1755959472.png?width=2400&optimize=medium",
+  "Link": "https://www.bark-side.com/",
+  "Stall": "V3",
+  "isNSFW": "+18",
+  "x": 5128, "y": 130, "w": 464, "h": 108
+},
+{
+  "Artist": "tykables",
+  "Icon": "",
+  "Link": "https://tykables.com/",
+  "Stall": "V4",
+  "isNSFW": "+18",
+  "x": 5588, "y": 130, "w": 196, "h": 108
+},
+{
+  "Artist": "primalhardwere",
+  "Icon": "",
+  "Link": "https://www.primalhardwere.com/",
+  "Stall": "V5",
+  "isNSFW": "+18",
+  "x": 5806, "y": 130, "w": 196, "h": 108
+},
+
+
+
+{
+  "Artist": "statiik",
+  "Icon": "",
+  "Link": "https://statiik.bigcartel.com/",
+  "Stall": "U1-2",
+  "isNSFW": "+18",
+  "x": 6265, "y": 1025, "w": 32, "h": 112
+},
+{
+  "Artist": "dyesthatbind",
+  "Icon": "https://i.etsystatic.com/7842318/r/isla/cbb89e/44069330/isla_100x100.44069330_3gawhej0.jpg",
+  "Link": "https://www.etsy.com/shop/dyesthatbind/?etsrc=sdt",
+  "Stall": "U1-2",
+  "isNSFW": "+18",
+  "x": 6265, "y": 915, "w": 32, "h": 112
+},
+{
+  "Artist": "theyogurtkingdom",
+  "Icon": "https://6796a77a4c8bbe146464.cdn6.editmysite.com/uploads/b/6796a77a4c8bbe146464da25a5c7f4d606ecc218ae31bcf13496d72495608e88/The%20Yogurt%20Kingdom%20Logo%20300%20dpi%20%28color%29_1722560849.png?width=2400&optimize=medium",
+  "Link": "https://theyogurtkingdom.square.site/",
+  "Stall": "U1-2",
+  "isNSFW": "+18",
+  "x": 6265, "y": 605, "w": 32, "h": 272
+},
+{
+  "Artist": "regallywild",
+  "Icon": "https://regallywild.com/cdn/shop/files/Logomark_and_Wordmark_-_Transparency_Enabled2.png?v=1661710369&width=250",
+  "Link": "https://regallywild.com/",
+  "Stall": "U1-2",
+  "isNSFW": "+18",
+  "x": 6265, "y": 305, "w": 32, "h": 272
+}
+
+
+
+
+]
