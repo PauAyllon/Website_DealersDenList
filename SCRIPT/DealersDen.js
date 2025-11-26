@@ -327,7 +327,7 @@ function openSellersList() {
         </div>
       `;
     } else {
-      iconHtml = `<img src="${obj.Icon}" style="width:100px; height:100px; border-radius:100px; margin-right:30px; box-shadow:2px 5px 5px 0px #00000023;">`;
+      iconHtml = `<img src="${obj.Icon}" style="width:80px; height:80px; border-radius:100px; margin-right:30px; box-shadow:2px 5px 5px 0px #00000023;">`;
     }
 
     html += `
@@ -335,11 +335,11 @@ function openSellersList() {
           data-index="${index}" 
           onclick="handleRectClick(event)" 
           style="display:flex; gap:20px; margin-bottom:10px; cursor:pointer;">
-        <div style="width:10px; background-color:${color};"></div>
+        <div style="width:6px; background-color:${color};"></div>
         ${iconHtml}
         <div style="text-align:start; align-items:center;">
-          <p class="Download_Title" style="margin-bottom:5px;">${obj.Artist}</p>
-          <p class="Download_Title" style="font-weight:500; margin-bottom:5px; margin-top:5px;">
+          <p class="Download_Title" style="margin-bottom:5px; font-size:18px">${obj.Artist}</p>
+          <p class="Download_Title" style="font-weight:500; margin-bottom:5px; margin-top:5px; font-size:12px">
             - Stall: ${obj.Stall}
           </p>
         </div>
@@ -536,10 +536,30 @@ zoomInBtn.addEventListener('click', () => zoom(zoomStep));
 zoomOutBtn.addEventListener('click', () => zoom(-zoomStep));
 
 
-/* EVENTOS - ARRASTRAR
+/* EVENTOS - ARRASTRAR Y ZOOM
 =============================================================================== */
 const ImageContainer = document.getElementById('imagen');
+let lastTouchDistance = null;
 
+function clampPosition() {
+    // aquí puedes limitar originX y originY si quieres que no se salga del marco
+}
+
+function updateTransform() {
+    ImageContainer.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
+}
+
+function mostrarCoordenadas(e) {
+    // tu lógica para mostrar coordenadas
+}
+
+function getDistance(touches) {
+    const dx = touches[0].clientX - touches[1].clientX;
+    const dy = touches[0].clientY - touches[1].clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+}
+
+/* --- Desktop (ratón) --- */
 ImageContainer.addEventListener('mousedown', function (e) {
     isDragging = true;
     startX = e.clientX - originX;
@@ -553,15 +573,19 @@ ImageContainer.addEventListener('mousemove', function (e) {
         clampPosition();
         updateTransform();
     }
-
     mostrarCoordenadas(e);
 });
 
 ImageContainer.addEventListener('mouseup', () => isDragging = false);
 ImageContainer.addEventListener('mouseleave', () => isDragging = false);
 
+/* --- Móvil (touch) --- */
 ImageContainer.addEventListener('touchstart', function (e) {
-    if (e.touches.length > 0) {
+    if (e.touches.length === 2) {
+        // inicio del gesto de zoom
+        lastTouchDistance = getDistance(e.touches);
+    } else if (e.touches.length === 1) {
+        // arrastre normal
         isDragging = true;
         startX = e.touches[0].clientX - originX;
         startY = e.touches[0].clientY - originY;
@@ -569,8 +593,19 @@ ImageContainer.addEventListener('touchstart', function (e) {
 }, { passive: false });
 
 ImageContainer.addEventListener('touchmove', function (e) {
-    if (isDragging && e.touches.length > 0) {
-        e.preventDefault(); // evita el scroll
+    if (e.touches.length === 2) {
+        e.preventDefault();
+        const newDistance = getDistance(e.touches);
+        if (lastTouchDistance) {
+            const delta = newDistance / lastTouchDistance;
+            scale *= delta; // acumula el zoom
+            // límites de zoom opcionales
+            scale = Math.max(0.5, Math.min(scale, 3));
+            lastTouchDistance = newDistance;
+            updateTransform();
+        }
+    } else if (isDragging && e.touches.length === 1) {
+        e.preventDefault();
         originX = e.touches[0].clientX - startX;
         originY = e.touches[0].clientY - startY;
         clampPosition();
@@ -580,8 +615,20 @@ ImageContainer.addEventListener('touchmove', function (e) {
     mostrarCoordenadas(e);
 }, { passive: false });
 
-ImageContainer.addEventListener('touchend', () => isDragging = false);
-ImageContainer.addEventListener('touchcancel', () => isDragging = false);
+ImageContainer.addEventListener('touchend', function (e) {
+    if (e.touches.length < 2) {
+        lastTouchDistance = null;
+    }
+    if (e.touches.length === 0) {
+        isDragging = false;
+    }
+});
+
+ImageContainer.addEventListener('touchcancel', () => {
+    isDragging = false;
+    lastTouchDistance = null;
+});
+
 
 /* FUNCION - MOSTRAR COORDENADAS
 =============================================================================== */
