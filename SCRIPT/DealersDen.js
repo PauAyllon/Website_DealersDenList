@@ -536,30 +536,10 @@ zoomInBtn.addEventListener('click', () => zoom(zoomStep));
 zoomOutBtn.addEventListener('click', () => zoom(-zoomStep));
 
 
-/* EVENTOS - ARRASTRAR Y ZOOM
+/* EVENTOS - ARRASTRAR
 =============================================================================== */
 const ImageContainer = document.getElementById('imagen');
-let lastTouchDistance = null;
 
-function clampPosition() {
-    // aquí puedes limitar originX y originY si quieres que no se salga del marco
-}
-
-function updateTransform() {
-    ImageContainer.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
-}
-
-function mostrarCoordenadas(e) {
-    // tu lógica para mostrar coordenadas
-}
-
-function getDistance(touches) {
-    const dx = touches[0].clientX - touches[1].clientX;
-    const dy = touches[0].clientY - touches[1].clientY;
-    return Math.sqrt(dx * dx + dy * dy);
-}
-
-/* --- Desktop (ratón) --- */
 ImageContainer.addEventListener('mousedown', function (e) {
     isDragging = true;
     startX = e.clientX - originX;
@@ -573,19 +553,15 @@ ImageContainer.addEventListener('mousemove', function (e) {
         clampPosition();
         updateTransform();
     }
+
     mostrarCoordenadas(e);
 });
 
 ImageContainer.addEventListener('mouseup', () => isDragging = false);
 ImageContainer.addEventListener('mouseleave', () => isDragging = false);
 
-/* --- Móvil (touch) --- */
 ImageContainer.addEventListener('touchstart', function (e) {
-    if (e.touches.length === 2) {
-        // inicio del gesto de zoom
-        lastTouchDistance = getDistance(e.touches);
-    } else if (e.touches.length === 1) {
-        // arrastre normal
+    if (e.touches.length > 0) {
         isDragging = true;
         startX = e.touches[0].clientX - originX;
         startY = e.touches[0].clientY - originY;
@@ -593,19 +569,8 @@ ImageContainer.addEventListener('touchstart', function (e) {
 }, { passive: false });
 
 ImageContainer.addEventListener('touchmove', function (e) {
-    if (e.touches.length === 2) {
-        e.preventDefault();
-        const newDistance = getDistance(e.touches);
-        if (lastTouchDistance) {
-            const delta = newDistance / lastTouchDistance;
-            scale *= delta; // acumula el zoom
-            // límites de zoom opcionales
-            scale = Math.max(0.1, Math.min(scale, 10));
-            lastTouchDistance = newDistance;
-            updateTransform();
-        }
-    } else if (isDragging && e.touches.length === 1) {
-        e.preventDefault();
+    if (isDragging && e.touches.length > 0) {
+        e.preventDefault(); // evita el scroll
         originX = e.touches[0].clientX - startX;
         originY = e.touches[0].clientY - startY;
         clampPosition();
@@ -615,20 +580,8 @@ ImageContainer.addEventListener('touchmove', function (e) {
     mostrarCoordenadas(e);
 }, { passive: false });
 
-ImageContainer.addEventListener('touchend', function (e) {
-    if (e.touches.length < 2) {
-        lastTouchDistance = null;
-    }
-    if (e.touches.length === 0) {
-        isDragging = false;
-    }
-});
-
-ImageContainer.addEventListener('touchcancel', () => {
-    isDragging = false;
-    lastTouchDistance = null;
-});
-
+ImageContainer.addEventListener('touchend', () => isDragging = false);
+ImageContainer.addEventListener('touchcancel', () => isDragging = false);
 
 /* FUNCION - MOSTRAR COORDENADAS
 =============================================================================== */
