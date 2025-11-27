@@ -520,7 +520,7 @@ body{
 .Seller_Name {
     color: #000000;
     font-family: "Ranade_Regular";
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 550;
 }
 
@@ -558,12 +558,13 @@ body{
 
 .ItemContainer {
     box-shadow: 2px 5px 5px #00000023;
-    height: 85px;
+    min-height: 85px;              /* antes height: 85px */
     border-radius: 12px;
     border: 1px solid #00000023;
     display: flex;
     justify-content: start;
     margin-bottom: 10px;
+    align-items: flex-start;       /* que crezca hacia abajo */
 }
 
 .ItemText {
@@ -571,7 +572,11 @@ body{
     font-family: "Ranade_Regular";
     font-size: 14px;
     font-weight: 500;
+    line-height: 1.4;
+    white-space: normal;           /* permite saltos de línea */
+    word-break: break-word;        /* corta palabras largas si es necesario */
 }
+
 
 .Download_Button {
     display: flex;
@@ -710,7 +715,30 @@ body{
 
 /* SellersList
 =================================================================== */
+.is-hidden {
+  display: none !important;
+}
 
+.DeleteConfirm {
+    display: none;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffbf;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+    width: -webkit-fill-available;
+}
+
+.DeleteConfirm p {
+    color: #000000;
+    font-family: "Ranade_Regular";
+    font-size: 20px;
+    font-weight: 550;
+    width: 300px;
+}
 
 /* DOWNLOAD ITEMS
 =================================================================== */
@@ -759,5 +787,14 @@ body{
 
     .Seller_Info {
         font-size: 12px;
+    }
+    .Seller_Name {
+        font-size: 20px;
+    }
+
+    .DeleteConfirm {
+        position: fixed;
+        top: 0;
+        left: 0;
     }
 }

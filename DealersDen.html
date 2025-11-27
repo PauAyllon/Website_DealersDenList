@@ -35,7 +35,7 @@
                 <button id="zoomOut">−</button>
             </div>
 
-            <div class="coordenadas" id="coordenadas" style="opacity: 1;">X: 0, Y: 0</div>
+            <div class="coordenadas" id="coordenadas" style="opacity: 0;">X: 0, Y: 0</div>
 
             <div id="overlay"></div>
             <img src="Images/map.png" alt="Imagen" class="imagen" id="imagen">
@@ -44,6 +44,14 @@
 
         <div class="DD_SellerContainer" id="CloseSellerContainer">
             <div class="DD_SellerInfoContainer">
+                <div class="DeleteConfirm" id="DeleteConfirm">
+                    <p>Are you sure you want to delete this entry?</p>
+                    <div style="display: flex; gap: 20px;">
+                        <button class="RRSS_Button" onclick="deleteItem()">YES</button>
+                        <button class="RRSS_Button" onclick="CloseDeleteMenu()">NO</button>
+                    </div>
+                </div>
+
                 <div style="height: 30px;">
                     
                 </div>
@@ -116,6 +124,8 @@
                     </div>
                 </div>
 
+                <input type="text" id="searchInput" placeholder="Search name..." style="position: relative; top: -20px; padding: 5px; height: 30px; width: 210px; border-radius: 25px; border: solid 1px #00000023; box-shadow: 2px 5px 5px 0px #00000023;">
+
                 <div id="SellersList">
                     <div style="display: flex; gap: 20px">
                         <div style="width: 10px; background-color: #ff0000;"></div>
@@ -183,5 +193,8 @@
             FileInput.addEventListener('input', verificarCampos);
 
         </script>
+
+
+
     </body>
 </html>

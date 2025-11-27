@@ -280,76 +280,76 @@ function handleRectClick(event) {
 }
 
 function openSellersList() {
-  document.getElementById('CloseSellerList').style.display = "flex"
+  const close = document.getElementById('CloseSellerList');
+  if (close) close.style.display = 'flex';
 
-  let html = "";
+  const listEl = document.getElementById('SellersList');
+  if (!listEl) return;
+
+  let html = '';
 
   const stallColors = {
-    A: "#453066",
-    B: "#453066",
-    C: "#453066", 
-    D: "#453066", 
-    E: "#453066",
-    V: "#453066",
-    X: "#453066",
-    T: "#453066",
-    U: "#453066",
-    W: "#453066",
-
-    F: "#43663d",
-    G: "#43663d",
-    H: "#43663d",
-    I: "#43663d",
-    J: "#43663d",
-
-    K: "#506193",
-    L: "#506193",
-    M: "#506193",
-    N: "#506193",
-    O: "#506193",
-
-    P: "#591818",
-    S: "#591818",
-
-    default: "#808080" 
+    A:"#453066", B:"#453066", C:"#453066", D:"#453066", E:"#453066",
+    V:"#453066", X:"#453066", T:"#453066", U:"#453066", W:"#453066",
+    F:"#43663d", G:"#43663d", H:"#43663d", I:"#43663d", J:"#43663d",
+    K:"#506193", L:"#506193", M:"#506193", N:"#506193", O:"#506193",
+    P:"#591818", S:"#591818",
+    default:"#808080"
   };
 
   json_sellers.forEach((obj, index) => {
-    const letter = obj.Stall.charAt(0).toUpperCase();
-    const color = stallColors[letter] || stallColors.default;
+    const artist = (obj.Artist || '').trim();
+    const stall  = (obj.Stall  || '').trim();
+    const letter = stall.charAt(0).toUpperCase();
+    const color  = stallColors[letter] || stallColors.default;
 
-    let iconHtml;
-    if (!obj.Icon || obj.Icon.trim() === "") {
-      const Nickname = obj.Artist.slice(0, 2).toUpperCase();
-      iconHtml = `
-        <div class="Nickname">
-          <p>${Nickname}</p>
-        </div>
-      `;
-    } else {
-      iconHtml = `<img src="${obj.Icon}" style="width:80px; height:80px; border-radius:100px; margin-right:30px; box-shadow:2px 5px 5px 0px #00000023;">`;
-    }
+    const iconHtml = (!obj.Icon || obj.Icon.trim() === '')
+      ? `<div class="Nickname"><p>${artist.slice(0,2).toUpperCase()}</p></div>`
+      : `<img src="${obj.Icon}" style="width:80px; height:80px; border-radius:100px; margin-right:30px; box-shadow:2px 5px 5px 0px #00000023;">`;
 
     html += `
-      <div class="seller-item" 
-          data-index="${index}" 
-          onclick="handleRectClick(event)" 
-          style="display:flex; gap:20px; margin-bottom:10px; cursor:pointer;">
+      <div class="seller-row"
+           data-index="${index}"
+           data-artist="${artist.toLowerCase()}"
+           data-stall="${stall.toLowerCase()}"
+           onclick="handleRectClick(event)"
+           style="padding:5px; border-radius:8px; display:flex; gap:20px; margin-bottom:10px; cursor:pointer; box-shadow:0px 5px 14px 0px #00000023;">
         <div style="width:6px; background-color:${color};"></div>
         ${iconHtml}
         <div style="text-align:start; align-items:center;">
-          <p class="Download_Title" style="margin-bottom:5px; font-size:18px">${obj.Artist}</p>
-          <p class="Download_Title" style="font-weight:500; margin-bottom:5px; margin-top:5px; font-size:12px">
-            - Stall: ${obj.Stall}
-          </p>
+          <p class="Download_Title" style="margin-bottom:5px; font-size:14px">${artist}</p>
+          <p class="Download_Title" style="font-weight:500; margin-bottom:5px; margin-top:5px; font-size:12px">- Stall: ${stall}</p>
         </div>
       </div>
     `;
   });
 
-  document.getElementById('SellersList').innerHTML = html;
-
+  listEl.innerHTML = html;
+  attachSellerSearch();
 }
+
+function attachSellerSearch() {
+  const input  = document.getElementById('searchInput');
+  const listEl = document.getElementById('SellersList');
+  if (!input || !listEl) return;
+
+  // Evita múltiples listeners si vuelves a abrir la lista
+  input.oninput = function () {
+    const q = (this.value || '').toLowerCase().trim();
+    const rows = listEl.querySelectorAll('.seller-row');
+
+    rows.forEach(row => {
+      const artist = row.dataset.artist || '';
+      const stall  = row.dataset.stall || '';
+      const match  = artist.includes(q) || stall.includes(q);
+      row.classList.toggle('is-hidden', q && !match);
+    });
+  };
+
+  // Dispara una primera pasada para aplicar lo escrito si ya había texto
+  input.oninput();
+}
+
 
 function CloseSellerContainer() {
     document.getElementById('CloseSellerContainer').style.display = "none"
@@ -385,24 +385,25 @@ function showItemData(items) {
       // Atributo para mostrar/ocultar el botón de eliminar
       const atributoEliminar = esMio ? '' : 'style="display: none;"';
 
+      // <img src="Images/Buttons/recycle-bin_3976961.png" class="Remove_Button" ${atributoEliminar} onclick="deleteItem('${item.key}')">
+      //<button class="Download_Button" onclick="DownloadImage('${item.FileInput}', '${item.FileInputName}')">Download image</button>
+
       if (item.FileInput !== '') {
         ItemInput += `
-          <div class="ItemContainer" style="${estiloFondo}">
-            <div style="margin-left: 20px; width: 100%; height: 100%; overflow: hidden; text-align: start; display: flex ; flex-direction: row; align-items: center; justify-content: space-between;">
+          <div class="ItemContainer" style="${estiloFondo}" onclick="ShowDeleteMenu(this, '${item.User}')" data-key="${item.key}">
+            <div style="margin: 0px 0px 20px 20px; width: 100%; height: 100%; overflow: hidden; text-align: start; display: flex ; flex-direction: row; align-items: center; justify-content: space-between;">
               <div style="display:flex; flex-direction:column">
-                <p style="display: flex; height: 19px; overflow-y: hidden;" class="ItemText">${item.User}: ${item.TextInput}</p>
-                <button class="Download_Button" onclick="DownloadImage('${item.FileInput}', '${item.FileInputName}')">Download image</button>
+                <p style="display: flex; overflow-y: hidden;" class="ItemText">${item.User}: ${item.TextInput}</p>
+                <img src="${item.FileInput}" style="width: 20vh;">
               </div>
-              <img src="Images/Buttons/recycle-bin_3976961.png" class="Remove_Button" ${atributoEliminar} onclick="deleteItem('${item.key}')">
             </div>
           </div>
         `;
       } else {
         ItemInput += `
-          <div class="ItemContainer" style="${estiloFondo}">
+          <div class="ItemContainer" style="${estiloFondo}" onclick="ShowDeleteMenu(this, '${item.User}')" data-key="${item.key}">
             <div style="margin-left: 20px; width: 100%; height: 100%; overflow: hidden; text-align: start; display: flex ; flex-direction: row; align-items: center; justify-content: space-between;">
               <p style="display: flex;" class="ItemText">${item.User}: ${item.TextInput}</p>
-              <img src="Images/Buttons/recycle-bin_3976961.png" class="Remove_Button" ${atributoEliminar} onclick="deleteItem('${item.key}')">
             </div>
           </div>
         `;
@@ -416,23 +417,40 @@ function showItemData(items) {
   dibujarRectangulos();
 }
 
+function ShowDeleteMenu(element, user) {
+  console.log(user)
+  console.log(usuario)
+  if(user == usuario){
+    selectedKey = element.getAttribute("data-key");
+    document.getElementById('DeleteConfirm').style.display = "flex"
+  }
+}
 
-
+function CloseDeleteMenu() {
+  document.getElementById('DeleteConfirm').style.display = "none"
+}
 
 /* DELETE ITEMS */
-function deleteItem(key) {
-  if (!key) return;
+function deleteItem() {
+if (selectedKey) {
+    console.log("Confirmando borrado de:", selectedKey);
 
-  const ref = firebase.database().ref(`json_ItemData/${groupcode}/${key}`);
-  ref.remove()
-    .then(() => {
-      console.log('Item eliminado:', key);
-      // Para refrescar la lista tras borrar, lee de nuevo los datos
-      fetchAndShowItems();
-    })
-    .catch(error => {
-      console.error('Error eliminando item:', error);
-    });
+    const ref = firebase.database().ref(`json_ItemData/${groupcode}/${selectedKey}`);
+    ref.remove()
+      .then(() => {
+        console.log('Item eliminado:', selectedKey);
+        // Para refrescar la lista tras borrar, lee de nuevo los datos
+        fetchAndShowItems();
+      })
+      .catch(error => {
+        console.error('Error eliminando item:', error);
+      });
+
+  } else {
+    console.warn("No hay ningún registro seleccionado");
+  }
+
+  document.getElementById('DeleteConfirm').style.display = "none"
 }
 
 function fetchAndShowItems() {
@@ -768,7 +786,7 @@ function DownloadPDF() {
         margin:       10,
         filename:     'Dealers Den List.pdf',
         image:        { type: 'jpeg', quality: 1.0 },   // calidad máxima
-        html2canvas:  { scale: 3, useCORS: true },      // escala más alta y soporte CORS
+        html2canvas:  { scale: 4, useCORS: true },      // escala más alta y soporte CORS
         jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
 
